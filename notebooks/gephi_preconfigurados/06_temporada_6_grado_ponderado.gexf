@@ -1,0 +1,2265 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="grado" type="long" />
+      <attribute id="1" title="grado_ponderado" type="double" />
+      <attribute id="2" title="intermediacion" type="double" />
+      <attribute id="3" title="autovector" type="double" />
+      <attribute id="4" title="comunidad" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>23/11/2026</lastmodified>
+    </meta>
+    <nodes>
+      <node id="AERON" label="AERON">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="20.224111439005792" />
+        <viz:position x="-1069.6529243734785" y="345.1163866679849" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0016680149875593845" />
+          <attvalue for="4" value="Comunidad_14" />
+        </attvalues>
+      </node>
+      <node id="BALON" label="BALON">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="23.78587316389179" />
+        <viz:position x="-963.2512153560363" y="393.7751609863704" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.002719787481131985" />
+          <attvalue for="4" value="Comunidad_14" />
+        </attvalues>
+      </node>
+      <node id="EURON" label="EURON">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="25.182574021268138" />
+        <viz:position x="-864.0369666754019" y="331.7628004544793" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.004937559277028562" />
+          <attvalue for="4" value="Comunidad_14" />
+        </attvalues>
+      </node>
+      <node id="THEON" label="THEON">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="38.314794079421894" />
+        <viz:position x="-520.1372482339431" y="297.8285543562604" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="171.0" />
+          <attvalue for="2" value="0.0857122742476336" />
+          <attvalue for="3" value="0.06439729827975117" />
+          <attvalue for="4" value="Comunidad_27" />
+        </attvalues>
+      </node>
+      <node id="YARA" label="YARA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="36.21320343556973" />
+        <viz:position x="-729.8422659426512" y="410.97422796332677" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="151.0" />
+          <attvalue for="2" value="0.007654833346322708" />
+          <attvalue for="3" value="0.01849182989272625" />
+          <attvalue for="4" value="Comunidad_14" />
+        </attvalues>
+      </node>
+      <node id="AERYS" label="AERYS">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="15.49741234041562" />
+        <viz:position x="-962.8786157625576" y="1127.212669871805" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0002775437161123968" />
+          <attvalue for="4" value="Comunidad_18" />
+        </attvalues>
+      </node>
+      <node id="TYRION" label="TYRION">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="62.7865924324099" />
+        <viz:position x="-466.1035521792504" y="578.5723345599057" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="26" />
+          <attvalue for="1" value="442.0" />
+          <attvalue for="2" value="0.14853156113828953" />
+          <attvalue for="3" value="0.02629760351548271" />
+          <attvalue for="4" value="Comunidad_18" />
+        </attvalues>
+      </node>
+      <node id="ALLISER_THORNE" label="ALLISER_THORNE">
+        <viz:color a="1.00000000000000" b="196" g="130" r="25" />
+        <viz:size value="27.67688361448647" />
+        <viz:position x="-87.74637266678589" y="-373.98122711475975" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="7.526414821247647e-05" />
+          <attvalue for="3" value="0.07668718472370921" />
+          <attvalue for="4" value="Comunidad_12" />
+        </attvalues>
+      </node>
+      <node id="BOWEN_MARSH" label="BOWEN_MARSH">
+        <viz:color a="1.00000000000000" b="196" g="130" r="25" />
+        <viz:size value="21.692356063335293" />
+        <viz:position x="-177.0468780434215" y="-452.33373351361814" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.029543663231767697" />
+          <attvalue for="4" value="Comunidad_12" />
+        </attvalues>
+      </node>
+      <node id="DAVOS" label="DAVOS">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="58.820881123774775" />
+        <viz:position x="-213.97214795993483" y="-122.01956702800742" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="394.0" />
+          <attvalue for="2" value="0.023022843120090442" />
+          <attvalue for="3" value="0.3946420666638599" />
+          <attvalue for="4" value="Comunidad_23" />
+        </attvalues>
+      </node>
+      <node id="EDDISON_TOLLETT" label="EDDISON_TOLLETT">
+        <viz:color a="1.00000000000000" b="196" g="130" r="25" />
+        <viz:size value="36.850698731994186" />
+        <viz:position x="-7.086994963539643" y="-199.17771103815736" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="157.0" />
+          <attvalue for="2" value="0.00420656233083486" />
+          <attvalue for="3" value="0.19174686212543948" />
+          <attvalue for="4" value="Comunidad_12" />
+        </attvalues>
+      </node>
+      <node id="JON" label="JON">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="74.99999999992448" />
+        <viz:position x="-198.47714728398202" y="-336.19636864921335" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="598.0" />
+          <attvalue for="2" value="0.19134542283724268" />
+          <attvalue for="3" value="0.5563531729923052" />
+          <attvalue for="4" value="Comunidad_24" />
+        </attvalues>
+      </node>
+      <node id="MELISANDRE" label="MELISANDRE">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="41.25520709639489" />
+        <viz:position x="-96.99450854090846" y="-124.30689562275408" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="200.0" />
+          <attvalue for="2" value="0.005856116974124558" />
+          <attvalue for="3" value="0.26447140957988413" />
+          <attvalue for="4" value="Comunidad_20" />
+        </attvalues>
+      </node>
+      <node id="OLLY" label="OLLY">
+        <viz:color a="1.00000000000000" b="196" g="130" r="25" />
+        <viz:size value="21.848603295533067" />
+        <viz:position x="-32.72009927695355" y="-477.2338747137154" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.02955353992526748" />
+          <attvalue for="4" value="Comunidad_12" />
+        </attvalues>
+      </node>
+      <node id="OTHELL_YARWYCK" label="OTHELL_YARWYCK">
+        <viz:color a="1.00000000000000" b="196" g="130" r="25" />
+        <viz:size value="18.979298723324966" />
+        <viz:position x="-119.86384200295059" y="-555.3041514117343" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0149270887604113" />
+          <attvalue for="4" value="Comunidad_12" />
+        </attvalues>
+      </node>
+      <node id="TORMUND" label="TORMUND">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="45.33017994016896" />
+        <viz:position x="-120.06927410325882" y="-240.47910090428087" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="242.0" />
+          <attvalue for="2" value="0.021952495277606194" />
+          <attvalue for="3" value="0.2633574552481489" />
+          <attvalue for="4" value="Comunidad_26" />
+        </attvalues>
+      </node>
+      <node id="WUN_WUN" label="WUN_WUN">
+        <viz:color a="1.00000000000000" b="147" g="76" r="106" />
+        <viz:size value="25.45412168046887" />
+        <viz:position x="-368.9227554386863" y="-244.9452580669879" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="0.0012572574937263254" />
+          <attvalue for="3" value="0.06528510320856999" />
+          <attvalue for="4" value="Comunidad_11" />
+        </attvalues>
+      </node>
+      <node id="AREO" label="AREO">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="17.584630337734804" />
+        <viz:position x="1687.9257064311528" y="1619.6722065919657" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="3.6347394889983823e-06" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="DORAN" label="DORAN">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="19.879564090774885" />
+        <viz:position x="1524.7290304256828" y="1600.3546976174948" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="23.0" />
+          <attvalue for="2" value="0.0001519756838905775" />
+          <attvalue for="3" value="8.28118105169793e-06" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="ELLARIA" label="ELLARIA">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="21.534883143543915" />
+        <viz:position x="1239.8568013969925" y="1330.8354597582713" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="33.0" />
+          <attvalue for="2" value="0.032573454913880445" />
+          <attvalue for="3" value="0.00024690960845639206" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="MAESTER_DORNE" label="MAESTER_DORNE">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="17.584630337734804" />
+        <viz:position x="1596.808557525414" y="1745.4142465627888" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="2.5242598571819292e-06" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="TYENE" label="TYENE">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="19.526700448555623" />
+        <viz:position x="1319.1328729713962" y="1416.8837280484004" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="0.01945288753799392" />
+          <attvalue for="3" value="8.766432795569422e-05" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="ARTHUR" label="ARTHUR">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="19.704235471627044" />
+        <viz:position x="660.0003446471721" y="-487.06158543513334" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0021737177431691793" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="BRAN" label="BRAN">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="48.22335782792097" />
+        <viz:position x="750.5995281187306" y="-324.7323053806283" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="273.0" />
+          <attvalue for="2" value="0.06337530003783398" />
+          <attvalue for="3" value="0.016974226834513564" />
+          <attvalue for="4" value="Comunidad_28" />
+        </attvalues>
+      </node>
+      <node id="HOWLAND" label="HOWLAND">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="18.004422940757287" />
+        <viz:position x="863.418739036628" y="-598.1577887554166" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0008593096105940425" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="NED" label="NED">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="35.89205677678284" />
+        <viz:position x="435.11722010119126" y="-229.00192448527895" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="148.0" />
+          <attvalue for="2" value="0.11267022269017848" />
+          <attvalue for="3" value="0.04526773807104055" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="THREE_EYED_RAVEN" label="THREE_EYED_RAVEN">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="35.461280725584416" />
+        <viz:position x="856.8512597784176" y="-373.71770646419463" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="144.0" />
+          <attvalue for="2" value="0.00272717010558956" />
+          <attvalue for="3" value="0.006900027177365977" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="ARTHUR_CHILD" label="ARTHUR_CHILD">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="16.406894555815025" />
+        <viz:position x="379.07238405212587" y="1199.4449501267654" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00010276912462499365" />
+          <attvalue for="4" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="QYBURN" label="QYBURN">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="26.648571173808563" />
+        <viz:position x="324.38620120570295" y="784.3151516570217" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="69.0" />
+          <attvalue for="2" value="0.016761390135250312" />
+          <attvalue for="3" value="0.004871125323765042" />
+          <attvalue for="4" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="ARYA" label="ARYA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="48.40708182882851" />
+        <viz:position x="245.070836472789" y="197.47191075266298" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="275.0" />
+          <attvalue for="2" value="0.033030322171059646" />
+          <attvalue for="3" value="0.02025060660252499" />
+          <attvalue for="4" value="Comunidad_29" />
+        </attvalues>
+      </node>
+      <node id="BIANCA" label="BIANCA">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="28.055319587543153" />
+        <viz:position x="209.45891710903211" y="308.9205141500554" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="0.0035300313469806346" />
+          <attvalue for="3" value="0.011034955068959997" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="BOBONO" label="BOBONO">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="28.30558720914312" />
+        <viz:position x="-15.714279900445387" y="307.5251852885716" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="82.0" />
+          <attvalue for="2" value="0.0038821083479938056" />
+          <attvalue for="3" value="0.01091255572770419" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="CAMELLO" label="CAMELLO">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="24.770650029798453" />
+        <viz:position x="-62.156904382443656" y="200.1376504848334" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="0.00022402341551277721" />
+          <attvalue for="3" value="0.006477634435243898" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="CERSEI" label="CERSEI">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="53.24964159237929" />
+        <viz:position x="380.5250243371637" y="573.4332815844105" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="27" />
+          <attvalue for="1" value="329.0" />
+          <attvalue for="2" value="0.11721858119776939" />
+          <attvalue for="3" value="0.0276140292513099" />
+          <attvalue for="4" value="Comunidad_21" />
+        </attvalues>
+      </node>
+      <node id="CLARENZO" label="CLARENZO">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="27.166350310466512" />
+        <viz:position x="-35.67956023270107" y="422.80912858187867" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="0.001093709566353943" />
+          <attvalue for="3" value="0.010281465501383116" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="IZEMBARO" label="IZEMBARO">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="28.055319587543153" />
+        <viz:position x="76.95124212209544" y="224.6638680846794" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="0.0032277423394844614" />
+          <attvalue for="3" value="0.007563492875082014" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="JAQEN" label="JAQEN">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="31.08216353817648" />
+        <viz:position x="350.9495684488898" y="78.6306646883308" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="105.0" />
+          <attvalue for="2" value="0.0006913338310314792" />
+          <attvalue for="3" value="0.006309895239350472" />
+          <attvalue for="4" value="Comunidad_19" />
+        </attvalues>
+      </node>
+      <node id="JOFFREY" label="JOFFREY">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="24.21220546256034" />
+        <viz:position x="80.21324303221586" y="455.8824233764084" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="3.546099290780141e-05" />
+          <attvalue for="3" value="0.011351176962461315" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="LADY_CRANE" label="LADY_CRANE">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="39.239940937852225" />
+        <viz:position x="96.67511847484221" y="340.04630354795654" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="180.0" />
+          <attvalue for="2" value="0.0063256248408624025" />
+          <attvalue for="3" value="0.01899695230409305" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="RICKON" label="RICKON">
+        <viz:color a="1.00000000000000" b="147" g="76" r="106" />
+        <viz:size value="23.49779133984763" />
+        <viz:position x="12.973318591514644" y="-314.44515579925053" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="46.0" />
+          <attvalue for="2" value="0.004305714201130934" />
+          <attvalue for="3" value="0.04357509932058484" />
+          <attvalue for="4" value="Comunidad_11" />
+        </attvalues>
+      </node>
+      <node id="ROBERT" label="ROBERT">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="17.797155146753532" />
+        <viz:position x="483.9213400937372" y="317.9002645746607" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.001822603236776968" />
+          <attvalue for="3" value="0.0009139629909786169" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="SANSA" label="SANSA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="71.26094858966272" />
+        <viz:position x="-132.05081187442983" y="-12.682276489750368" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="549.0" />
+          <attvalue for="2" value="0.2626236959730492" />
+          <attvalue for="3" value="0.4857279777446351" />
+          <attvalue for="4" value="Comunidad_30" />
+        </attvalues>
+      </node>
+      <node id="WAIF" label="WAIF">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="26.778723854326344" />
+        <viz:position x="364.38069710370286" y="194.85718826646186" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="7.34549138804458e-05" />
+          <attvalue for="3" value="0.0039949089363267" />
+          <attvalue for="4" value="Comunidad_19" />
+        </attvalues>
+      </node>
+      <node id="WALDER" label="WALDER">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="27.422491282995487" />
+        <viz:position x="589.0819530092826" y="266.6143452483846" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="0.005682760628691517" />
+          <attvalue for="3" value="0.006136848212509078" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="BELICHO" label="BELICHO">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="21.37613489642205" />
+        <viz:position x="-748.1527303663382" y="855.6536279064774" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="32.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0013067248106331405" />
+          <attvalue for="4" value="Comunidad_15" />
+        </attvalues>
+      </node>
+      <node id="DAENERYS" label="DAENERYS">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="49.68390421078477" />
+        <viz:position x="-842.2331389089486" y="634.187115485431" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="289.0" />
+          <attvalue for="2" value="0.08319682522132986" />
+          <attvalue for="3" value="0.013069155813764152" />
+          <attvalue for="4" value="Comunidad_31" />
+        </attvalues>
+      </node>
+      <node id="GREY_WORM" label="GREY_WORM">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="39.239940937852225" />
+        <viz:position x="-577.6657320896642" y="613.8268380117553" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="180.0" />
+          <attvalue for="2" value="0.0009084165581126067" />
+          <attvalue for="3" value="0.011234198061273" />
+          <attvalue for="4" value="Comunidad_15" />
+        </attvalues>
+      </node>
+      <node id="MISSANDEI" label="MISSANDEI">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="39.64734229994245" />
+        <viz:position x="-688.3870575028566" y="651.6393769207725" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="184.0" />
+          <attvalue for="2" value="0.014282276740483428" />
+          <attvalue for="3" value="0.011724062484544114" />
+          <attvalue for="4" value="Comunidad_25" />
+        </attvalues>
+      </node>
+      <node id="RAZDAL" label="RAZDAL">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="23.49779133984763" />
+        <viz:position x="-783.6626912867213" y="735.4713821082977" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="46.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.001972105228359489" />
+          <attvalue for="4" value="Comunidad_15" />
+        </attvalues>
+      </node>
+      <node id="VARYS" label="VARYS">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="39.03538352605831" />
+        <viz:position x="-508.9126408225082" y="709.5236641718079" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="178.0" />
+          <attvalue for="2" value="0.049577011508940526" />
+          <attvalue for="3" value="0.011029610298160047" />
+          <attvalue for="4" value="Comunidad_13" />
+        </attvalues>
+      </node>
+      <node id="YEZZAN" label="YEZZAN">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="24.21220546256034" />
+        <viz:position x="-671.1096265184595" y="767.4214620967961" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.002497483463857825" />
+          <attvalue for="4" value="Comunidad_15" />
+        </attvalues>
+      </node>
+      <node id="BENJEN" label="BENJEN">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="26.90839889153188" />
+        <viz:position x="772.4481933766075" y="-454.7431492705847" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="71.0" />
+          <attvalue for="2" value="0.000688583340559024" />
+          <attvalue for="3" value="0.003855780338043495" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="HODOR" label="HODOR">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="32.46786938475775" />
+        <viz:position x="967.8498567344922" y="-336.7270120427206" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="117.0" />
+          <attvalue for="2" value="0.002153039744225156" />
+          <attvalue for="3" value="0.003858211021774172" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="LYANNA" label="LYANNA">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="24.070839521550397" />
+        <viz:position x="634.1215195584242" y="-335.77193951519916" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.005208956181682395" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="MEERA" label="MEERA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="34.4807326541182" />
+        <viz:position x="940.242031640513" y="-458.1596897651139" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="135.0" />
+          <attvalue for="2" value="0.000121580547112462" />
+          <attvalue for="3" value="0.004108183588978567" />
+          <attvalue for="4" value="Comunidad_16" />
+        </attvalues>
+      </node>
+      <node id="RODRIK" label="RODRIK">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="16.406894555815025" />
+        <viz:position x="1100.9210590980147" y="-679.6878374442573" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0004647715372869904" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="BERIC" label="BERIC">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="22.157602711210934" />
+        <viz:position x="2286.5193987626353" y="-1521.3665770941632" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="5.938083248192182e-21" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="HOUND" label="HOUND">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="31.315805891083972" />
+        <viz:position x="2290.1992829195333" y="-1576.4161076879132" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="107.0" />
+          <attvalue for="2" value="0.0007092198581560283" />
+          <attvalue for="3" value="1.1554768789238048e-20" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="LEM" label="LEM">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="20.561239030082966" />
+        <viz:position x="2236.382626585199" y="-1671.3178837788284" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="0.0007092198581560283" />
+          <attvalue for="3" value="3.358084502617018e-21" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="THOROS" label="THOROS">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="22.00367110660858" />
+        <viz:position x="2350.6285945021887" y="-1596.4919175329167" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="5.769130816663934e-21" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="MARGAERY" label="MARGAERY">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="47.39235505107224" />
+        <viz:position x="393.26371658438325" y="689.7377342929402" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="264.0" />
+          <attvalue for="2" value="0.04393195568747483" />
+          <attvalue for="3" value="0.015329600634033517" />
+          <attvalue for="4" value="Comunidad_32" />
+        </attvalues>
+      </node>
+      <node id="BLACK_WALDER" label="BLACK_WALDER">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="25.857102347272786" />
+        <viz:position x="694.3856385261249" y="317.605852546855" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="63.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0042357346678614126" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="BRONN" label="BRONN">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="27.166350310466512" />
+        <viz:position x="367.0764282110074" y="311.82612873271177" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="0.0012408508422035787" />
+          <attvalue for="3" value="0.011454494432845092" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="BRYNDEN" label="BRYNDEN">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="32.12497998507996" />
+        <viz:position x="481.22291601204614" y="200.9313862032095" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="114.0" />
+          <attvalue for="2" value="0.033754525535551895" />
+          <attvalue for="3" value="0.036636297071280854" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="EDMURE" label="EDMURE">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="27.803442334295468" />
+        <viz:position x="806.4919418397377" y="365.11688997469463" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="78.0" />
+          <attvalue for="2" value="0.017058141115891875" />
+          <attvalue for="3" value="0.0077526529373503445" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="JAIME" label="JAIME">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="59.90635683085802" />
+        <viz:position x="439.8038091509977" y="426.26374303265607" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="407.0" />
+          <attvalue for="2" value="0.13044955131297997" />
+          <attvalue for="3" value="0.05335711008637043" />
+          <attvalue for="4" value="Comunidad_33" />
+        </attvalues>
+      </node>
+      <node id="LOTHAR" label="LOTHAR">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="24.21220546256034" />
+        <viz:position x="710.0660673400482" y="433.55033991995725" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0036962672849901214" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="TYWIN" label="TYWIN">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="18.979298723324966" />
+        <viz:position x="-47.049706774278576" y="539.2553383425362" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0044527608875396234" />
+          <attvalue for="4" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="LEAF" label="LEAF">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="24.770650029798453" />
+        <viz:position x="1060.8530638401842" y="-407.7157679696683" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0016594785227809206" />
+          <attvalue for="4" value="Comunidad_16" />
+        </attvalues>
+      </node>
+      <node id="NIGHT_KING" label="NIGHT_KING">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="21.692356063335293" />
+        <viz:position x="1166.060264071908" y="-458.9060504400943" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0010277978316898997" />
+          <attvalue for="4" value="Comunidad_16" />
+        </attvalues>
+      </node>
+      <node id="OLD_NAN" label="OLD_NAN">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="17.584630337734804" />
+        <viz:position x="1099.2573286749282" y="-555.8114324626393" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.0005112783760200171" />
+          <attvalue for="3" value="0.0007013456420475561" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="BRIENNE" label="BRIENNE">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="43.02572582121549" />
+        <viz:position x="149.18337494406285" y="99.56433816592035" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="218.0" />
+          <attvalue for="2" value="0.020221356268736567" />
+          <attvalue for="3" value="0.15989868151921702" />
+          <attvalue for="4" value="Comunidad_34" />
+        </attvalues>
+      </node>
+      <node id="LITTLEFINGER" label="LITTLEFINGER">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="32.353824219558746" />
+        <viz:position x="-351.8902610229316" y="-87.08214781144204" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="116.0" />
+          <attvalue for="2" value="0.0029772709559943594" />
+          <attvalue for="3" value="0.12962039507862533" />
+          <attvalue for="4" value="Comunidad_17" />
+        </attvalues>
+      </node>
+      <node id="PODRICK" label="PODRICK">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="29.16954794467918" />
+        <viz:position x="32.700575931774516" y="110.55331146932048" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="89.0" />
+          <attvalue for="2" value="0.02036169949566413" />
+          <attvalue for="3" value="0.056776191220388794" />
+          <attvalue for="4" value="Comunidad_35" />
+        </attvalues>
+      </node>
+      <node id="STANNIS" label="STANNIS">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="21.37613489642205" />
+        <viz:position x="-278.1873974718244" y="20.43199544976857" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="32.0" />
+          <attvalue for="2" value="0.011644353350051734" />
+          <attvalue for="3" value="0.037043265691349934" />
+          <attvalue for="4" value="Comunidad_20" />
+        </attvalues>
+      </node>
+      <node id="GUARD_CAPTAIN" label="GUARD_CAPTAIN">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="18.004422940757287" />
+        <viz:position x="1050.9226563917616" y="273.1310432215767" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0009636511042890715" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="MINISA" label="MINISA">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="15.0" />
+        <viz:position x="1543.1566036289053" y="206.2265888344417" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00025761446508059137" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="CATELYN" label="CATELYN">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="18.600083570186335" />
+        <viz:position x="564.0894655365873" y="66.81427280058418" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.008060918498092458" />
+          <attvalue for="3" value="0.006870314095785191" />
+          <attvalue for="4" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="ROBB" label="ROBB">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="20.224111439005792" />
+        <viz:position x="263.06389193822446" y="-165.6147203318636" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="0.017700344471382325" />
+          <attvalue for="3" value="0.012742701911734423" />
+          <attvalue for="4" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="HIGH_SPARROW" label="HIGH_SPARROW">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="43.800668561490696" />
+        <viz:position x="514.095392785361" y="650.4218071134043" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="226.0" />
+          <attvalue for="2" value="0.0008234099571485589" />
+          <attvalue for="3" value="0.015357818627676151" />
+          <attvalue for="4" value="Comunidad_36" />
+        </attvalues>
+      </node>
+      <node id="KEVAN" label="KEVAN">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="25.990319619016006" />
+        <viz:position x="630.0920287740054" y="635.1319268222461" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="0.0006306990881458968" />
+          <attvalue for="3" value="0.005144362899606598" />
+          <attvalue for="4" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="LANCEL" label="LANCEL">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="22.61297236023561" />
+        <viz:position x="546.6316215755927" y="865.301928782853" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="40.0" />
+          <attvalue for="2" value="0.000303951367781155" />
+          <attvalue for="3" value="0.002369985747256039" />
+          <attvalue for="4" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="LORAS" label="LORAS">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="28.678079539078432" />
+        <viz:position x="484.10565876535736" y="763.5129909139528" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="85.0" />
+          <attvalue for="2" value="0.0004318039272446567" />
+          <attvalue for="3" value="0.004570008733491172" />
+          <attvalue for="4" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="MACE" label="MACE">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="23.92873531862317" />
+        <viz:position x="712.5542804030073" y="721.8390773433736" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="0.00048330679789646344" />
+          <attvalue for="3" value="0.003147299089103088" />
+          <attvalue for="4" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="MOUNTAIN" label="MOUNTAIN">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="16.1338549401938" />
+        <viz:position x="650.938384453538" y="1051.9990168653906" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00048546923726554064" />
+          <attvalue for="4" value="Comunidad_21" />
+        </attvalues>
+      </node>
+      <node id="MYRCELLA" label="MYRCELLA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="18.004422940757287" />
+        <viz:position x="852.3521532110566" y="683.9289536993149" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0014691874651385293" />
+          <attvalue for="4" value="Comunidad_22" />
+        </attvalues>
+      </node>
+      <node id="OLENNA" label="OLENNA">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="35.13620647433068" />
+        <viz:position x="681.5371822411427" y="856.8720894640422" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="141.0" />
+          <attvalue for="2" value="0.11357549660741154" />
+          <attvalue for="3" value="0.007674556107361208" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="PYCELLE" label="PYCELLE">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="24.492796866833835" />
+        <viz:position x="600.9158608423785" y="756.8514077143302" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="0.0004584599797365756" />
+          <attvalue for="3" value="0.0031268600176543307" />
+          <attvalue for="4" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="SEPTA_UNELLA" label="SEPTA_UNELLA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="24.352851929531624" />
+        <viz:position x="415.3245470612096" y="858.1605406590019" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="0.00016886187098953052" />
+          <attvalue for="3" value="0.0030426902327744796" />
+          <attvalue for="4" value="Comunidad_37" />
+        </attvalues>
+      </node>
+      <node id="SON_OF_EDMURE" label="SON_OF_EDMURE">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="16.906909109253363" />
+        <viz:position x="1037.9634461447918" y="586.1979140642117" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.0007393372135013471" />
+          <attvalue for="3" value="0.0009991067441891734" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="TOMMEN" label="TOMMEN">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="42.046867337553195" />
+        <viz:position x="506.2445346804488" y="533.6855058741731" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="208.0" />
+          <attvalue for="2" value="0.0011516379601485985" />
+          <attvalue for="3" value="0.01658847170434733" />
+          <attvalue for="4" value="Comunidad_22" />
+        </attvalues>
+      </node>
+      <node id="DAARIO" label="DAARIO">
+        <viz:color a="1.00000000000000" b="38" g="201" r="138" />
+        <viz:size value="33.03443289208087" />
+        <viz:position x="-1012.2019591210272" y="708.2430447640992" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="122.0" />
+          <attvalue for="2" value="6.754474839581222e-05" />
+          <attvalue for="3" value="0.0028431457079123677" />
+          <attvalue for="4" value="Comunidad_10" />
+        </attvalues>
+      </node>
+      <node id="DOSH_KHALEEN_LEADER" label="DOSH_KHALEEN_LEADER">
+        <viz:color a="1.00000000000000" b="38" g="201" r="138" />
+        <viz:size value="19.346812771514386" />
+        <viz:position x="-1299.1933142999235" y="862.7275494610196" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0004203729797699497" />
+          <attvalue for="4" value="Comunidad_10" />
+        </attvalues>
+      </node>
+      <node id="JORAH" label="JORAH">
+        <viz:color a="1.00000000000000" b="38" g="201" r="138" />
+        <viz:size value="29.047220318572766" />
+        <viz:position x="-1103.7617097855007" y="781.0840500994149" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="88.0" />
+          <attvalue for="2" value="6.754474839581222e-05" />
+          <attvalue for="3" value="0.0015881374850365505" />
+          <attvalue for="4" value="Comunidad_10" />
+        </attvalues>
+      </node>
+      <node id="KHAL_MORO" label="KHAL_MORO">
+        <viz:color a="1.00000000000000" b="38" g="201" r="138" />
+        <viz:size value="23.059432236776235" />
+        <viz:position x="-1129.9034558638969" y="662.06125379968" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="43.0" />
+          <attvalue for="2" value="0.00010131712259371833" />
+          <attvalue for="3" value="0.0015998293161459144" />
+          <attvalue for="4" value="Comunidad_10" />
+        </attvalues>
+      </node>
+      <node id="LHAZAREEN_WOMAN" label="LHAZAREEN_WOMAN">
+        <viz:color a="1.00000000000000" b="38" g="201" r="138" />
+        <viz:size value="21.05459473756697" />
+        <viz:position x="-1220.651567200184" y="776.0084975605258" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0007583139117725011" />
+          <attvalue for="4" value="Comunidad_10" />
+        </attvalues>
+      </node>
+      <node id="DROGO" label="DROGO">
+        <viz:color a="1.00000000000000" b="38" g="201" r="138" />
+        <viz:size value="17.584630337734804" />
+        <viz:position x="-1429.1623186722102" y="751.0474427338138" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00030402406061261493" />
+          <attvalue for="4" value="Comunidad_10" />
+        </attvalues>
+      </node>
+      <node id="KINVARA" label="KINVARA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="20.7272556133184" />
+        <viz:position x="-563.6707106450367" y="813.7450992159124" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0019281004111423611" />
+          <attvalue for="4" value="Comunidad_13" />
+        </attvalues>
+      </node>
+      <node id="RED_PRIEST" label="RED_PRIEST">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="17.366105177249647" />
+        <viz:position x="-866.2565763526827" y="923.7367481828845" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0006244279364004326" />
+          <attvalue for="4" value="Comunidad_13" />
+        </attvalues>
+      </node>
+      <node id="VALA" label="VALA">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="19.16440775555895" />
+        <viz:position x="-652.377880239771" y="968.2452055812751" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="19.0" />
+          <attvalue for="2" value="0.00035460992907801415" />
+          <attvalue for="3" value="0.0006374297071696218" />
+          <attvalue for="4" value="Comunidad_13" />
+        </attvalues>
+      </node>
+      <node id="DIM_DALBA" label="DIM_DALBA">
+        <viz:color a="1.00000000000000" b="147" g="76" r="106" />
+        <viz:size value="18.600083570186335" />
+        <viz:position x="-607.1165432714886" y="-257.64108196632384" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.020362622815493586" />
+          <attvalue for="4" value="Comunidad_11" />
+        </attvalues>
+      </node>
+      <node id="GLOVER" label="GLOVER">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="19.526700448555623" />
+        <viz:position x="107.43253573192919" y="-413.6589024386721" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="0.0007949574628905935" />
+          <attvalue for="3" value="0.02356263467517335" />
+          <attvalue for="4" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="HARALD" label="HARALD">
+        <viz:color a="1.00000000000000" b="147" g="76" r="106" />
+        <viz:size value="19.526700448555623" />
+        <viz:position x="-499.93531919944866" y="-304.5578721526342" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.021503867144986134" />
+          <attvalue for="4" value="Comunidad_11" />
+        </attvalues>
+      </node>
+      <node id="LYANNA_MORMONT" label="LYANNA_MORMONT">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="27.549902314282093" />
+        <viz:position x="-252.5905669973496" y="-232.46239251682707" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="76.0" />
+          <attvalue for="2" value="0.0022178672672593653" />
+          <attvalue for="3" value="0.09695691829566283" />
+          <attvalue for="4" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="MAESTER_MORMONT" label="MAESTER_MORMONT">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="19.526700448555623" />
+        <viz:position x="-475.367181577818" y="-190.16641000433825" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.02625465002287461" />
+          <attvalue for="4" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="RAMSAY" label="RAMSAY">
+        <viz:color a="1.00000000000000" b="7" g="86" r="251" />
+        <viz:size value="46.64767740552354" />
+        <viz:position x="-396.22431727893604" y="-358.71531002038375" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="256.0" />
+          <attvalue for="2" value="0.05948133293584904" />
+          <attvalue for="3" value="0.16088328199668822" />
+          <attvalue for="4" value="Comunidad_9" />
+        </attvalues>
+      </node>
+      <node id="ROBETT" label="ROBETT">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="21.848603295533067" />
+        <viz:position x="113.4155188063987" y="-254.44211907615502" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="0.0006869260706646725" />
+          <attvalue for="3" value="0.052511529102955354" />
+          <attvalue for="4" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="SHIREEN" label="SHIREEN">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="15.49741234041562" />
+        <viz:position x="-150.93997770142104" y="-834.9348850982982" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.004162412788133793" />
+          <attvalue for="4" value="Comunidad_23" />
+        </attvalues>
+      </node>
+      <node id="SMALLJON" label="SMALLJON">
+        <viz:color a="1.00000000000000" b="147" g="76" r="106" />
+        <viz:size value="28.554295353770726" />
+        <viz:position x="-290.3885754930152" y="-408.5931183185026" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="84.0" />
+          <attvalue for="2" value="0.009558894178776173" />
+          <attvalue for="3" value="0.059569429365802805" />
+          <attvalue for="4" value="Comunidad_11" />
+        </attvalues>
+      </node>
+      <node id="DICKON" label="DICKON">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="19.704235471627044" />
+        <viz:position x="-1473.5762356099008" y="-1561.1282469000087" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00038928564480848163" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="GILLY" label="GILLY">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="34.70002974715463" />
+        <viz:position x="-1383.4599169309854" y="-1332.290134380185" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="137.0" />
+          <attvalue for="2" value="0.0002735562310030395" />
+          <attvalue for="3" value="0.0025958394236850735" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="MELESSA" label="MELESSA">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="26.255156446520218" />
+        <viz:position x="-1507.387952536284" y="-1331.5867206809016" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2.0263424518743667e-05" />
+          <attvalue for="3" value="0.0008375733305404377" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="RANDYLL" label="RANDYLL">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="23.059432236776235" />
+        <viz:position x="-1505.5140955860427" y="-1448.5717139925653" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="43.0" />
+          <attvalue for="2" value="2.0263424518743667e-05" />
+          <attvalue for="3" value="0.0005526857037569322" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="SAM" label="SAM">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="38.62451442033396" />
+        <viz:position x="-1273.8963485900356" y="-1273.4163207756528" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="174.0" />
+          <attvalue for="2" value="0.10229989868287741" />
+          <attvalue for="3" value="0.008750694412982072" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="TALLA" label="TALLA">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="22.31043855469102" />
+        <viz:position x="-1622.485671997194" y="-1445.9928941287244" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="2.0263424518743667e-05" />
+          <attvalue for="3" value="0.00037570863280548503" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="DOM" label="DOM">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="16.906909109253363" />
+        <viz:position x="-701.6950513459411" y="1152.8667513255537" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0002007849137392997" />
+          <attvalue for="4" value="Comunidad_13" />
+        </attvalues>
+      </node>
+      <node id="OBERYN" label="OBERYN">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="16.1338549401938" />
+        <viz:position x="1790.6660748485122" y="1800.0" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.8238963546286028e-06" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="HOSTER" label="HOSTER">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="15.0" />
+        <viz:position x="1800.0" y="499.4904182164751" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="5.4516488299227846e-05" />
+          <attvalue for="4" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="NYMERIA" label="NYMERIA">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="20.052816961577655" />
+        <viz:position x="1031.331884936547" y="1373.8508381193335" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.006636271529888551" />
+          <attvalue for="3" value="0.00011664350351447218" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="OBARA" label="OBARA">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="20.393553449037803" />
+        <viz:position x="997.9105882436118" y="1261.7258323116955" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="26.0" />
+          <attvalue for="2" value="0.006636271529888551" />
+          <attvalue for="3" value="0.0001950940319306226" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="FLYNN" label="FLYNN">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="16.406894555815025" />
+        <viz:position x="2070.0" y="-1707.3039936525863" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="4.143680111264901e-22" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="MORGAN" label="MORGAN">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="16.406894555815025" />
+        <viz:position x="2151.0783322124944" y="-1796.0686271374311" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="4.143680111264901e-22" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="RAY" label="RAY">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="24.9085903879282" />
+        <viz:position x="2228.537823576896" y="-1614.084394668478" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="0.00020263424518743666" />
+          <attvalue for="3" value="8.514057808772352e-21" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="GATINS" label="GATINS">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="17.140622498134995" />
+        <viz:position x="2386.653941441052" y="-1476.9504984476841" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.7273309340050798e-21" />
+          <attvalue for="4" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="LITTLE_SAM" label="LITTLE_SAM">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="23.92873531862317" />
+        <viz:position x="-1388.5156812629766" y="-1449.1808493536992" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0008329207920029799" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="MAESTER_CITADEL" label="MAESTER_CITADEL">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="18.79127249252112" />
+        <viz:position x="-1302.5323018811962" y="-1528.5272952103905" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0004364559364316213" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="MANDERLY" label="MANDERLY">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="18.004422940757287" />
+        <viz:position x="150.73346260731233" y="-555.8683224814516" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="2.0263424518743667e-05" />
+          <attvalue for="3" value="0.008971566616021805" />
+          <attvalue for="4" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="JEOR" label="JEOR">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="15.49741234041562" />
+        <viz:position x="-381.2359648237195" y="-867.6765827292859" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.005868033755062169" />
+          <attvalue for="4" value="Comunidad_24" />
+        </attvalues>
+      </node>
+      <node id="ROOSE_BOLTON" label="ROOSE_BOLTON">
+        <viz:color a="1.00000000000000" b="7" g="86" r="251" />
+        <viz:size value="23.78587316389179" />
+        <viz:position x="-493.5179833512962" y="-423.70685309507604" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="0.01193611614135327" />
+          <attvalue for="3" value="0.032876794201732375" />
+          <attvalue for="4" value="Comunidad_9" />
+        </attvalues>
+      </node>
+      <node id="KRAZNYS_MO_NAKLOZ" label="KRAZNYS_MO_NAKLOZ">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="15.0" />
+        <viz:position x="-1393.2470430230744" y="1204.1393692278257" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="8.251385382731259e-05" />
+          <attvalue for="4" value="Comunidad_25" />
+        </attvalues>
+      </node>
+      <node id="ROBIN" label="ROBIN">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="20.052816961577655" />
+        <viz:position x="-684.3328059352494" y="-27.994519560367895" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.010521043106064389" />
+          <attvalue for="4" value="Comunidad_17" />
+        </attvalues>
+      </node>
+      <node id="YOHN_ROYCE" label="YOHN_ROYCE">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="20.224111439005792" />
+        <viz:position x="-699.8944732489016" y="-143.9550064100669" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.010965813445419893" />
+          <attvalue for="4" value="Comunidad_17" />
+        </attvalues>
+      </node>
+      <node id="MAESTER_AEMON" label="MAESTER_AEMON">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="15.0" />
+        <viz:position x="-1800.0" y="-1800.0" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="6.153084771511604e-05" />
+          <attvalue for="4" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="MAESTER_WOLKAN" label="MAESTER_WOLKAN">
+        <viz:color a="1.00000000000000" b="7" g="86" r="251" />
+        <viz:size value="19.704235471627044" />
+        <viz:position x="-783.1925436668303" y="-514.142907165005" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="0.00010131712259371833" />
+          <attvalue for="3" value="0.0071716858259497085" />
+          <attvalue for="4" value="Comunidad_9" />
+        </attvalues>
+      </node>
+      <node id="MYRANDA" label="MYRANDA">
+        <viz:color a="1.00000000000000" b="7" g="86" r="251" />
+        <viz:size value="17.797155146753532" />
+        <viz:position x="-809.2328440106836" y="-635.829001184783" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.004625888508727898" />
+          <attvalue for="4" value="Comunidad_9" />
+        </attvalues>
+      </node>
+      <node id="RICKARD_KARSTARK" label="RICKARD_KARSTARK">
+        <viz:color a="1.00000000000000" b="7" g="86" r="251" />
+        <viz:size value="19.704235471627044" />
+        <viz:position x="-670.0541544877706" y="-543.9540610166694" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="3.377237419790611e-05" />
+          <attvalue for="3" value="0.00625098740636516" />
+          <attvalue for="4" value="Comunidad_9" />
+        </attvalues>
+      </node>
+      <node id="MANCE" label="MANCE">
+        <viz:color a="1.00000000000000" b="174" g="164" r="144" />
+        <viz:size value="15.0" />
+        <viz:position x="9.78237453061066" y="-990.7776954698472" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0018518088933241598" />
+          <attvalue for="4" value="Comunidad_26" />
+        </attvalues>
+      </node>
+      <node id="RICKARD_STARK" label="RICKARD_STARK">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="16.1338549401938" />
+        <viz:position x="712.7612919751516" y="-692.7755962267948" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.000795759458690421" />
+          <attvalue for="4" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="TRYSTANE" label="TRYSTANE">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="18.004422940757287" />
+        <viz:position x="1125.0415192558382" y="1572.5042321121286" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="6.987589217357519e-06" />
+          <attvalue for="4" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="OSHA" label="OSHA">
+        <viz:color a="1.00000000000000" b="147" g="76" r="106" />
+        <viz:size value="20.224111439005792" />
+        <viz:position x="-437.8775135246493" y="-572.896003677179" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.01342833335382269" />
+          <attvalue for="4" value="Comunidad_11" />
+        </attvalues>
+      </node>
+      <node id="SON_OFWALDA" label="SON_OFWALDA">
+        <viz:color a="1.00000000000000" b="7" g="86" r="251" />
+        <viz:size value="19.526700448555623" />
+        <viz:position x="-590.9463079268322" y="-671.4013553638406" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.006640042927595834" />
+          <attvalue for="4" value="Comunidad_9" />
+        </attvalues>
+      </node>
+      <node id="WALDA" label="WALDA">
+        <viz:color a="1.00000000000000" b="7" g="86" r="251" />
+        <viz:size value="21.534883143543915" />
+        <viz:position x="-554.1833741300024" y="-560.1701721189602" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="33.0" />
+          <attvalue for="2" value="5.0658561296859166e-05" />
+          <attvalue for="3" value="0.011892791951033039" />
+          <attvalue for="4" value="Comunidad_9" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="AERON" target="BALON" weight="4.0" />
+      <edge id="1" source="AERON" target="EURON" weight="8.0" />
+      <edge id="2" source="AERON" target="THEON" weight="4.0" />
+      <edge id="3" source="AERON" target="YARA" weight="9.0" />
+      <edge id="4" source="BALON" target="EURON" weight="17.0" />
+      <edge id="5" source="BALON" target="THEON" weight="4.0" />
+      <edge id="6" source="BALON" target="YARA" weight="23.0" />
+      <edge id="7" source="EURON" target="THEON" weight="16.0" />
+      <edge id="8" source="EURON" target="YARA" weight="17.0" />
+      <edge id="9" source="THEON" target="BRIENNE" weight="5.0" />
+      <edge id="10" source="THEON" target="DAENERYS" weight="15.0" />
+      <edge id="11" source="THEON" target="GREY_WORM" weight="2.0" />
+      <edge id="12" source="THEON" target="JON" weight="2.0" />
+      <edge id="13" source="THEON" target="MISSANDEI" weight="2.0" />
+      <edge id="14" source="THEON" target="PODRICK" weight="5.0" />
+      <edge id="15" source="THEON" target="SANSA" weight="29.0" />
+      <edge id="16" source="THEON" target="TYRION" weight="13.0" />
+      <edge id="17" source="THEON" target="VARYS" weight="2.0" />
+      <edge id="18" source="THEON" target="YARA" weight="72.0" />
+      <edge id="19" source="YARA" target="DAENERYS" weight="18.0" />
+      <edge id="20" source="YARA" target="GREY_WORM" weight="2.0" />
+      <edge id="21" source="YARA" target="MISSANDEI" weight="2.0" />
+      <edge id="22" source="YARA" target="TYRION" weight="6.0" />
+      <edge id="23" source="YARA" target="VARYS" weight="2.0" />
+      <edge id="24" source="AERYS" target="TYRION" weight="3.0" />
+      <edge id="25" source="TYRION" target="ARYA" weight="3.0" />
+      <edge id="26" source="TYRION" target="BELICHO" weight="7.0" />
+      <edge id="27" source="TYRION" target="BIANCA" weight="3.0" />
+      <edge id="28" source="TYRION" target="BOBONO" weight="4.0" />
+      <edge id="29" source="TYRION" target="CAMELLO" weight="2.0" />
+      <edge id="30" source="TYRION" target="CERSEI" weight="3.0" />
+      <edge id="31" source="TYRION" target="CLARENZO" weight="5.0" />
+      <edge id="32" source="TYRION" target="DAENERYS" weight="69.0" />
+      <edge id="33" source="TYRION" target="GREY_WORM" weight="81.0" />
+      <edge id="34" source="TYRION" target="IZEMBARO" weight="2.0" />
+      <edge id="35" source="TYRION" target="JAIME" weight="2.0" />
+      <edge id="36" source="TYRION" target="JOFFREY" weight="4.0" />
+      <edge id="37" source="TYRION" target="KINVARA" weight="15.0" />
+      <edge id="38" source="TYRION" target="LADY_CRANE" weight="5.0" />
+      <edge id="39" source="TYRION" target="MARGAERY" weight="3.0" />
+      <edge id="40" source="TYRION" target="MISSANDEI" weight="88.0" />
+      <edge id="41" source="TYRION" target="NED" weight="2.0" />
+      <edge id="42" source="TYRION" target="RAZDAL" weight="10.0" />
+      <edge id="43" source="TYRION" target="RED_PRIEST" weight="4.0" />
+      <edge id="44" source="TYRION" target="SANSA" weight="4.0" />
+      <edge id="45" source="TYRION" target="TYWIN" weight="2.0" />
+      <edge id="46" source="TYRION" target="VARYS" weight="86.0" />
+      <edge id="47" source="TYRION" target="YEZZAN" weight="16.0" />
+      <edge id="48" source="ALLISER_THORNE" target="BOWEN_MARSH" weight="6.0" />
+      <edge id="49" source="ALLISER_THORNE" target="DAVOS" weight="22.0" />
+      <edge id="50" source="ALLISER_THORNE" target="EDDISON_TOLLETT" weight="11.0" />
+      <edge id="51" source="ALLISER_THORNE" target="JON" weight="13.0" />
+      <edge id="52" source="ALLISER_THORNE" target="MELISANDRE" weight="3.0" />
+      <edge id="53" source="ALLISER_THORNE" target="OLLY" weight="7.0" />
+      <edge id="54" source="ALLISER_THORNE" target="OTHELL_YARWYCK" weight="3.0" />
+      <edge id="55" source="ALLISER_THORNE" target="TORMUND" weight="9.0" />
+      <edge id="56" source="ALLISER_THORNE" target="WUN_WUN" weight="3.0" />
+      <edge id="57" source="BOWEN_MARSH" target="DAVOS" weight="4.0" />
+      <edge id="58" source="BOWEN_MARSH" target="EDDISON_TOLLETT" weight="4.0" />
+      <edge id="59" source="BOWEN_MARSH" target="JON" weight="6.0" />
+      <edge id="60" source="BOWEN_MARSH" target="MELISANDRE" weight="4.0" />
+      <edge id="61" source="BOWEN_MARSH" target="OLLY" weight="4.0" />
+      <edge id="62" source="BOWEN_MARSH" target="OTHELL_YARWYCK" weight="2.0" />
+      <edge id="63" source="BOWEN_MARSH" target="TORMUND" weight="4.0" />
+      <edge id="64" source="DAVOS" target="BRIENNE" weight="11.0" />
+      <edge id="65" source="DAVOS" target="DIM_DALBA" weight="2.0" />
+      <edge id="66" source="DAVOS" target="EDDISON_TOLLETT" weight="28.0" />
+      <edge id="67" source="DAVOS" target="GLOVER" weight="3.0" />
+      <edge id="68" source="DAVOS" target="HARALD" weight="3.0" />
+      <edge id="69" source="DAVOS" target="JON" weight="80.0" />
+      <edge id="70" source="DAVOS" target="LITTLEFINGER" weight="5.0" />
+      <edge id="71" source="DAVOS" target="LYANNA_MORMONT" weight="17.0" />
+      <edge id="72" source="DAVOS" target="MAESTER_MORMONT" weight="4.0" />
+      <edge id="73" source="DAVOS" target="MELISANDRE" weight="82.0" />
+      <edge id="74" source="DAVOS" target="OLLY" weight="4.0" />
+      <edge id="75" source="DAVOS" target="OTHELL_YARWYCK" weight="2.0" />
+      <edge id="76" source="DAVOS" target="RAMSAY" weight="8.0" />
+      <edge id="77" source="DAVOS" target="RICKON" weight="2.0" />
+      <edge id="78" source="DAVOS" target="ROBETT" weight="2.0" />
+      <edge id="79" source="DAVOS" target="SANSA" weight="38.0" />
+      <edge id="80" source="DAVOS" target="SHIREEN" weight="3.0" />
+      <edge id="81" source="DAVOS" target="SMALLJON" weight="6.0" />
+      <edge id="82" source="DAVOS" target="STANNIS" weight="9.0" />
+      <edge id="83" source="DAVOS" target="TORMUND" weight="50.0" />
+      <edge id="84" source="DAVOS" target="WUN_WUN" weight="9.0" />
+      <edge id="85" source="EDDISON_TOLLETT" target="BRIENNE" weight="9.0" />
+      <edge id="86" source="EDDISON_TOLLETT" target="JON" weight="48.0" />
+      <edge id="87" source="EDDISON_TOLLETT" target="MELISANDRE" weight="11.0" />
+      <edge id="88" source="EDDISON_TOLLETT" target="OLLY" weight="5.0" />
+      <edge id="89" source="EDDISON_TOLLETT" target="OTHELL_YARWYCK" weight="2.0" />
+      <edge id="90" source="EDDISON_TOLLETT" target="PODRICK" weight="4.0" />
+      <edge id="91" source="EDDISON_TOLLETT" target="SANSA" weight="11.0" />
+      <edge id="92" source="EDDISON_TOLLETT" target="TORMUND" weight="21.0" />
+      <edge id="93" source="EDDISON_TOLLETT" target="WUN_WUN" weight="3.0" />
+      <edge id="94" source="JON" target="BRAN" weight="3.0" />
+      <edge id="95" source="JON" target="BRIENNE" weight="10.0" />
+      <edge id="96" source="JON" target="DIM_DALBA" weight="5.0" />
+      <edge id="97" source="JON" target="GLOVER" weight="7.0" />
+      <edge id="98" source="JON" target="HARALD" weight="3.0" />
+      <edge id="99" source="JON" target="JEOR" weight="3.0" />
+      <edge id="100" source="JON" target="LITTLEFINGER" weight="8.0" />
+      <edge id="101" source="JON" target="LYANNA_MORMONT" weight="24.0" />
+      <edge id="102" source="JON" target="MAESTER_MORMONT" weight="5.0" />
+      <edge id="103" source="JON" target="MANDERLY" weight="4.0" />
+      <edge id="104" source="JON" target="MELISANDRE" weight="54.0" />
+      <edge id="105" source="JON" target="NED" weight="10.0" />
+      <edge id="106" source="JON" target="OLLY" weight="6.0" />
+      <edge id="107" source="JON" target="OTHELL_YARWYCK" weight="3.0" />
+      <edge id="108" source="JON" target="PODRICK" weight="4.0" />
+      <edge id="109" source="JON" target="RAMSAY" weight="30.0" />
+      <edge id="110" source="JON" target="RICKON" weight="9.0" />
+      <edge id="111" source="JON" target="ROBB" weight="5.0" />
+      <edge id="112" source="JON" target="ROBETT" weight="19.0" />
+      <edge id="113" source="JON" target="ROOSE_BOLTON" weight="3.0" />
+      <edge id="114" source="JON" target="SAM" weight="4.0" />
+      <edge id="115" source="JON" target="SANSA" weight="151.0" />
+      <edge id="116" source="JON" target="SMALLJON" weight="8.0" />
+      <edge id="117" source="JON" target="STANNIS" weight="4.0" />
+      <edge id="118" source="JON" target="TORMUND" weight="54.0" />
+      <edge id="119" source="JON" target="WUN_WUN" weight="13.0" />
+      <edge id="120" source="MELISANDRE" target="BRIENNE" weight="10.0" />
+      <edge id="121" source="MELISANDRE" target="OLLY" weight="2.0" />
+      <edge id="122" source="MELISANDRE" target="OTHELL_YARWYCK" weight="2.0" />
+      <edge id="123" source="MELISANDRE" target="PODRICK" weight="2.0" />
+      <edge id="124" source="MELISANDRE" target="RAMSAY" weight="2.0" />
+      <edge id="125" source="MELISANDRE" target="SANSA" weight="10.0" />
+      <edge id="126" source="MELISANDRE" target="STANNIS" weight="6.0" />
+      <edge id="127" source="MELISANDRE" target="TORMUND" weight="12.0" />
+      <edge id="128" source="OLLY" target="OTHELL_YARWYCK" weight="2.0" />
+      <edge id="129" source="OLLY" target="TORMUND" weight="5.0" />
+      <edge id="130" source="OTHELL_YARWYCK" target="TORMUND" weight="2.0" />
+      <edge id="131" source="TORMUND" target="BRIENNE" weight="9.0" />
+      <edge id="132" source="TORMUND" target="DIM_DALBA" weight="4.0" />
+      <edge id="133" source="TORMUND" target="HARALD" weight="3.0" />
+      <edge id="134" source="TORMUND" target="LITTLEFINGER" weight="4.0" />
+      <edge id="135" source="TORMUND" target="LYANNA_MORMONT" weight="3.0" />
+      <edge id="136" source="TORMUND" target="MANCE" weight="2.0" />
+      <edge id="137" source="TORMUND" target="PODRICK" weight="4.0" />
+      <edge id="138" source="TORMUND" target="RAMSAY" weight="8.0" />
+      <edge id="139" source="TORMUND" target="RICKON" weight="2.0" />
+      <edge id="140" source="TORMUND" target="SANSA" weight="24.0" />
+      <edge id="141" source="TORMUND" target="SMALLJON" weight="6.0" />
+      <edge id="142" source="TORMUND" target="STANNIS" weight="4.0" />
+      <edge id="143" source="TORMUND" target="WUN_WUN" weight="12.0" />
+      <edge id="144" source="WUN_WUN" target="DIM_DALBA" weight="3.0" />
+      <edge id="145" source="WUN_WUN" target="LITTLEFINGER" weight="2.0" />
+      <edge id="146" source="WUN_WUN" target="RAMSAY" weight="5.0" />
+      <edge id="147" source="WUN_WUN" target="RICKON" weight="2.0" />
+      <edge id="148" source="WUN_WUN" target="SANSA" weight="5.0" />
+      <edge id="149" source="WUN_WUN" target="SMALLJON" weight="3.0" />
+      <edge id="150" source="AREO" target="DORAN" weight="3.0" />
+      <edge id="151" source="AREO" target="ELLARIA" weight="3.0" />
+      <edge id="152" source="AREO" target="MAESTER_DORNE" weight="2.0" />
+      <edge id="153" source="AREO" target="TYENE" weight="3.0" />
+      <edge id="154" source="DORAN" target="ELLARIA" weight="8.0" />
+      <edge id="155" source="DORAN" target="MAESTER_DORNE" weight="5.0" />
+      <edge id="156" source="DORAN" target="OBERYN" weight="3.0" />
+      <edge id="157" source="DORAN" target="TYENE" weight="4.0" />
+      <edge id="158" source="ELLARIA" target="MAESTER_DORNE" weight="2.0" />
+      <edge id="159" source="ELLARIA" target="NYMERIA" weight="2.0" />
+      <edge id="160" source="ELLARIA" target="OBARA" weight="2.0" />
+      <edge id="161" source="ELLARIA" target="OBERYN" weight="2.0" />
+      <edge id="162" source="ELLARIA" target="OLENNA" weight="9.0" />
+      <edge id="163" source="ELLARIA" target="TYENE" weight="5.0" />
+      <edge id="164" source="MAESTER_DORNE" target="TYENE" weight="2.0" />
+      <edge id="165" source="TYENE" target="NYMERIA" weight="2.0" />
+      <edge id="166" source="TYENE" target="OBARA" weight="2.0" />
+      <edge id="167" source="TYENE" target="OLENNA" weight="3.0" />
+      <edge id="168" source="ARTHUR" target="BRAN" weight="3.0" />
+      <edge id="169" source="ARTHUR" target="HOWLAND" weight="4.0" />
+      <edge id="170" source="ARTHUR" target="NED" weight="12.0" />
+      <edge id="171" source="ARTHUR" target="THREE_EYED_RAVEN" weight="3.0" />
+      <edge id="172" source="BRAN" target="ARYA" weight="3.0" />
+      <edge id="173" source="BRAN" target="BENJEN" weight="29.0" />
+      <edge id="174" source="BRAN" target="HODOR" weight="38.0" />
+      <edge id="175" source="BRAN" target="HOWLAND" weight="2.0" />
+      <edge id="176" source="BRAN" target="JAQEN" weight="2.0" />
+      <edge id="177" source="BRAN" target="LEAF" weight="19.0" />
+      <edge id="178" source="BRAN" target="LYANNA" weight="6.0" />
+      <edge id="179" source="BRAN" target="MEERA" weight="51.0" />
+      <edge id="180" source="BRAN" target="NED" weight="20.0" />
+      <edge id="181" source="BRAN" target="NIGHT_KING" weight="12.0" />
+      <edge id="182" source="BRAN" target="OLD_NAN" weight="2.0" />
+      <edge id="183" source="BRAN" target="RICKON" weight="3.0" />
+      <edge id="184" source="BRAN" target="RODRIK" weight="2.0" />
+      <edge id="185" source="BRAN" target="SANSA" weight="2.0" />
+      <edge id="186" source="BRAN" target="THREE_EYED_RAVEN" weight="76.0" />
+      <edge id="187" source="HOWLAND" target="NED" weight="4.0" />
+      <edge id="188" source="HOWLAND" target="THREE_EYED_RAVEN" weight="3.0" />
+      <edge id="189" source="NED" target="ARYA" weight="2.0" />
+      <edge id="190" source="NED" target="BENJEN" weight="10.0" />
+      <edge id="191" source="NED" target="BIANCA" weight="3.0" />
+      <edge id="192" source="NED" target="BOBONO" weight="3.0" />
+      <edge id="193" source="NED" target="CAMELLO" weight="2.0" />
+      <edge id="194" source="NED" target="CATELYN" weight="3.0" />
+      <edge id="195" source="NED" target="HODOR" weight="3.0" />
+      <edge id="196" source="NED" target="IZEMBARO" weight="3.0" />
+      <edge id="197" source="NED" target="LYANNA" weight="29.0" />
+      <edge id="198" source="NED" target="OLD_NAN" weight="3.0" />
+      <edge id="199" source="NED" target="RAMSAY" weight="3.0" />
+      <edge id="200" source="NED" target="RICKARD_STARK" weight="5.0" />
+      <edge id="201" source="NED" target="ROBB" weight="2.0" />
+      <edge id="202" source="NED" target="ROBERT" weight="2.0" />
+      <edge id="203" source="NED" target="ROBETT" weight="2.0" />
+      <edge id="204" source="NED" target="RODRIK" weight="2.0" />
+      <edge id="205" source="NED" target="SANSA" weight="12.0" />
+      <edge id="206" source="NED" target="THREE_EYED_RAVEN" weight="11.0" />
+      <edge id="207" source="THREE_EYED_RAVEN" target="BENJEN" weight="7.0" />
+      <edge id="208" source="THREE_EYED_RAVEN" target="HODOR" weight="15.0" />
+      <edge id="209" source="THREE_EYED_RAVEN" target="LEAF" weight="8.0" />
+      <edge id="210" source="THREE_EYED_RAVEN" target="LYANNA" weight="3.0" />
+      <edge id="211" source="THREE_EYED_RAVEN" target="MEERA" weight="11.0" />
+      <edge id="212" source="THREE_EYED_RAVEN" target="NIGHT_KING" weight="5.0" />
+      <edge id="213" source="THREE_EYED_RAVEN" target="OLD_NAN" weight="2.0" />
+      <edge id="214" source="ARTHUR_CHILD" target="QYBURN" weight="6.0" />
+      <edge id="215" source="QYBURN" target="CERSEI" weight="29.0" />
+      <edge id="216" source="QYBURN" target="JAIME" weight="7.0" />
+      <edge id="217" source="QYBURN" target="KEVAN" weight="2.0" />
+      <edge id="218" source="QYBURN" target="LANCEL" weight="2.0" />
+      <edge id="219" source="QYBURN" target="PYCELLE" weight="13.0" />
+      <edge id="220" source="QYBURN" target="TOMMEN" weight="8.0" />
+      <edge id="221" source="QYBURN" target="VARYS" weight="2.0" />
+      <edge id="222" source="ARYA" target="BIANCA" weight="10.0" />
+      <edge id="223" source="ARYA" target="BOBONO" weight="5.0" />
+      <edge id="224" source="ARYA" target="CAMELLO" weight="5.0" />
+      <edge id="225" source="ARYA" target="CERSEI" weight="4.0" />
+      <edge id="226" source="ARYA" target="CLARENZO" weight="6.0" />
+      <edge id="227" source="ARYA" target="IZEMBARO" weight="9.0" />
+      <edge id="228" source="ARYA" target="JAQEN" weight="83.0" />
+      <edge id="229" source="ARYA" target="JOFFREY" weight="5.0" />
+      <edge id="230" source="ARYA" target="LADY_CRANE" weight="64.0" />
+      <edge id="231" source="ARYA" target="RICKON" weight="2.0" />
+      <edge id="232" source="ARYA" target="ROBERT" weight="2.0" />
+      <edge id="233" source="ARYA" target="SANSA" weight="6.0" />
+      <edge id="234" source="ARYA" target="WAIF" weight="48.0" />
+      <edge id="235" source="ARYA" target="WALDER" weight="18.0" />
+      <edge id="236" source="BIANCA" target="BOBONO" weight="10.0" />
+      <edge id="237" source="BIANCA" target="CAMELLO" weight="4.0" />
+      <edge id="238" source="BIANCA" target="CERSEI" weight="3.0" />
+      <edge id="239" source="BIANCA" target="CLARENZO" weight="8.0" />
+      <edge id="240" source="BIANCA" target="IZEMBARO" weight="13.0" />
+      <edge id="241" source="BIANCA" target="JOFFREY" weight="4.0" />
+      <edge id="242" source="BIANCA" target="LADY_CRANE" weight="16.0" />
+      <edge id="243" source="BIANCA" target="MARGAERY" weight="2.0" />
+      <edge id="244" source="BIANCA" target="SANSA" weight="4.0" />
+      <edge id="245" source="BOBONO" target="CAMELLO" weight="7.0" />
+      <edge id="246" source="BOBONO" target="CERSEI" weight="3.0" />
+      <edge id="247" source="BOBONO" target="CLARENZO" weight="10.0" />
+      <edge id="248" source="BOBONO" target="IZEMBARO" weight="9.0" />
+      <edge id="249" source="BOBONO" target="JOFFREY" weight="5.0" />
+      <edge id="250" source="BOBONO" target="LADY_CRANE" weight="16.0" />
+      <edge id="251" source="BOBONO" target="MARGAERY" weight="2.0" />
+      <edge id="252" source="BOBONO" target="SANSA" weight="4.0" />
+      <edge id="253" source="BOBONO" target="TYWIN" weight="4.0" />
+      <edge id="254" source="CAMELLO" target="CLARENZO" weight="6.0" />
+      <edge id="255" source="CAMELLO" target="IZEMBARO" weight="6.0" />
+      <edge id="256" source="CAMELLO" target="LADY_CRANE" weight="21.0" />
+      <edge id="257" source="CAMELLO" target="SANSA" weight="2.0" />
+      <edge id="258" source="CERSEI" target="CLARENZO" weight="4.0" />
+      <edge id="259" source="CERSEI" target="HIGH_SPARROW" weight="15.0" />
+      <edge id="260" source="CERSEI" target="IZEMBARO" weight="3.0" />
+      <edge id="261" source="CERSEI" target="JAIME" weight="66.0" />
+      <edge id="262" source="CERSEI" target="JOFFREY" weight="6.0" />
+      <edge id="263" source="CERSEI" target="KEVAN" weight="18.0" />
+      <edge id="264" source="CERSEI" target="LADY_CRANE" weight="6.0" />
+      <edge id="265" source="CERSEI" target="LANCEL" weight="15.0" />
+      <edge id="266" source="CERSEI" target="LORAS" weight="6.0" />
+      <edge id="267" source="CERSEI" target="MACE" weight="4.0" />
+      <edge id="268" source="CERSEI" target="MARGAERY" weight="14.0" />
+      <edge id="269" source="CERSEI" target="MOUNTAIN" weight="5.0" />
+      <edge id="270" source="CERSEI" target="MYRCELLA" weight="5.0" />
+      <edge id="271" source="CERSEI" target="OLENNA" weight="29.0" />
+      <edge id="272" source="CERSEI" target="PYCELLE" weight="16.0" />
+      <edge id="273" source="CERSEI" target="ROBERT" weight="2.0" />
+      <edge id="274" source="CERSEI" target="SANSA" weight="4.0" />
+      <edge id="275" source="CERSEI" target="SEPTA_UNELLA" weight="12.0" />
+      <edge id="276" source="CERSEI" target="SON_OF_EDMURE" weight="2.0" />
+      <edge id="277" source="CERSEI" target="TOMMEN" weight="48.0" />
+      <edge id="278" source="CERSEI" target="TYWIN" weight="5.0" />
+      <edge id="279" source="CERSEI" target="VARYS" weight="2.0" />
+      <edge id="280" source="CLARENZO" target="IZEMBARO" weight="9.0" />
+      <edge id="281" source="CLARENZO" target="JOFFREY" weight="5.0" />
+      <edge id="282" source="CLARENZO" target="LADY_CRANE" weight="11.0" />
+      <edge id="283" source="CLARENZO" target="MARGAERY" weight="3.0" />
+      <edge id="284" source="CLARENZO" target="ROBERT" weight="2.0" />
+      <edge id="285" source="CLARENZO" target="SANSA" weight="4.0" />
+      <edge id="286" source="IZEMBARO" target="JOFFREY" weight="3.0" />
+      <edge id="287" source="IZEMBARO" target="LADY_CRANE" weight="16.0" />
+      <edge id="288" source="IZEMBARO" target="ROBERT" weight="2.0" />
+      <edge id="289" source="IZEMBARO" target="SANSA" weight="2.0" />
+      <edge id="290" source="IZEMBARO" target="TYWIN" weight="3.0" />
+      <edge id="291" source="JAQEN" target="WAIF" weight="20.0" />
+      <edge id="292" source="JOFFREY" target="LADY_CRANE" weight="11.0" />
+      <edge id="293" source="JOFFREY" target="MARGAERY" weight="3.0" />
+      <edge id="294" source="JOFFREY" target="SANSA" weight="5.0" />
+      <edge id="295" source="LADY_CRANE" target="MARGAERY" weight="2.0" />
+      <edge id="296" source="LADY_CRANE" target="ROBERT" weight="2.0" />
+      <edge id="297" source="LADY_CRANE" target="SANSA" weight="6.0" />
+      <edge id="298" source="LADY_CRANE" target="TYWIN" weight="2.0" />
+      <edge id="299" source="LADY_CRANE" target="WAIF" weight="2.0" />
+      <edge id="300" source="RICKON" target="RAMSAY" weight="13.0" />
+      <edge id="301" source="RICKON" target="SANSA" weight="7.0" />
+      <edge id="302" source="RICKON" target="SMALLJON" weight="6.0" />
+      <edge id="303" source="SANSA" target="BRIENNE" weight="46.0" />
+      <edge id="304" source="SANSA" target="BRYNDEN" weight="6.0" />
+      <edge id="305" source="SANSA" target="CATELYN" weight="3.0" />
+      <edge id="306" source="SANSA" target="DIM_DALBA" weight="2.0" />
+      <edge id="307" source="SANSA" target="GLOVER" weight="3.0" />
+      <edge id="308" source="SANSA" target="HARALD" weight="3.0" />
+      <edge id="309" source="SANSA" target="JAIME" weight="3.0" />
+      <edge id="310" source="SANSA" target="LITTLEFINGER" weight="57.0" />
+      <edge id="311" source="SANSA" target="LYANNA_MORMONT" weight="12.0" />
+      <edge id="312" source="SANSA" target="MAESTER_MORMONT" weight="5.0" />
+      <edge id="313" source="SANSA" target="MARGAERY" weight="2.0" />
+      <edge id="314" source="SANSA" target="PODRICK" weight="13.0" />
+      <edge id="315" source="SANSA" target="RAMSAY" weight="37.0" />
+      <edge id="316" source="SANSA" target="ROBETT" weight="7.0" />
+      <edge id="317" source="SANSA" target="ROBIN" weight="2.0" />
+      <edge id="318" source="SANSA" target="ROOSE_BOLTON" weight="7.0" />
+      <edge id="319" source="SANSA" target="SMALLJON" weight="4.0" />
+      <edge id="320" source="SANSA" target="STANNIS" weight="3.0" />
+      <edge id="321" source="SANSA" target="TYWIN" weight="2.0" />
+      <edge id="322" source="SANSA" target="YOHN_ROYCE" weight="2.0" />
+      <edge id="323" source="WALDER" target="BLACK_WALDER" weight="15.0" />
+      <edge id="324" source="WALDER" target="BRONN" weight="2.0" />
+      <edge id="325" source="WALDER" target="BRYNDEN" weight="5.0" />
+      <edge id="326" source="WALDER" target="EDMURE" weight="5.0" />
+      <edge id="327" source="WALDER" target="JAIME" weight="19.0" />
+      <edge id="328" source="WALDER" target="LOTHAR" weight="9.0" />
+      <edge id="329" source="WALDER" target="ROBB" weight="2.0" />
+      <edge id="330" source="BELICHO" target="DAENERYS" weight="2.0" />
+      <edge id="331" source="BELICHO" target="GREY_WORM" weight="5.0" />
+      <edge id="332" source="BELICHO" target="MISSANDEI" weight="5.0" />
+      <edge id="333" source="BELICHO" target="RAZDAL" weight="6.0" />
+      <edge id="334" source="BELICHO" target="VARYS" weight="2.0" />
+      <edge id="335" source="BELICHO" target="YEZZAN" weight="5.0" />
+      <edge id="336" source="DAENERYS" target="DAARIO" weight="54.0" />
+      <edge id="337" source="DAENERYS" target="DOSH_KHALEEN_LEADER" weight="8.0" />
+      <edge id="338" source="DAENERYS" target="DROGO" weight="6.0" />
+      <edge id="339" source="DAENERYS" target="GREY_WORM" weight="8.0" />
+      <edge id="340" source="DAENERYS" target="JORAH" weight="21.0" />
+      <edge id="341" source="DAENERYS" target="KHAL_MORO" weight="34.0" />
+      <edge id="342" source="DAENERYS" target="KINVARA" weight="5.0" />
+      <edge id="343" source="DAENERYS" target="LHAZAREEN_WOMAN" weight="15.0" />
+      <edge id="344" source="DAENERYS" target="MISSANDEI" weight="11.0" />
+      <edge id="345" source="DAENERYS" target="RAZDAL" weight="6.0" />
+      <edge id="346" source="DAENERYS" target="RED_PRIEST" weight="3.0" />
+      <edge id="347" source="DAENERYS" target="VALA" weight="2.0" />
+      <edge id="348" source="DAENERYS" target="VARYS" weight="8.0" />
+      <edge id="349" source="DAENERYS" target="YEZZAN" weight="4.0" />
+      <edge id="350" source="GREY_WORM" target="MISSANDEI" weight="44.0" />
+      <edge id="351" source="GREY_WORM" target="RAZDAL" weight="7.0" />
+      <edge id="352" source="GREY_WORM" target="VARYS" weight="21.0" />
+      <edge id="353" source="GREY_WORM" target="YEZZAN" weight="10.0" />
+      <edge id="354" source="MISSANDEI" target="KRAZNYS_MO_NAKLOZ" weight="2.0" />
+      <edge id="355" source="MISSANDEI" target="RAZDAL" weight="7.0" />
+      <edge id="356" source="MISSANDEI" target="VARYS" weight="16.0" />
+      <edge id="357" source="MISSANDEI" target="YEZZAN" weight="7.0" />
+      <edge id="358" source="RAZDAL" target="VARYS" weight="3.0" />
+      <edge id="359" source="RAZDAL" target="YEZZAN" weight="7.0" />
+      <edge id="360" source="VARYS" target="DOM" weight="5.0" />
+      <edge id="361" source="VARYS" target="KINVARA" weight="8.0" />
+      <edge id="362" source="VARYS" target="RED_PRIEST" weight="3.0" />
+      <edge id="363" source="VARYS" target="STANNIS" weight="2.0" />
+      <edge id="364" source="VARYS" target="VALA" weight="14.0" />
+      <edge id="365" source="VARYS" target="YEZZAN" weight="2.0" />
+      <edge id="366" source="BENJEN" target="HODOR" weight="3.0" />
+      <edge id="367" source="BENJEN" target="LYANNA" weight="8.0" />
+      <edge id="368" source="BENJEN" target="MEERA" weight="12.0" />
+      <edge id="369" source="BENJEN" target="RODRIK" weight="2.0" />
+      <edge id="370" source="HODOR" target="LEAF" weight="9.0" />
+      <edge id="371" source="HODOR" target="LYANNA" weight="4.0" />
+      <edge id="372" source="HODOR" target="MEERA" weight="39.0" />
+      <edge id="373" source="HODOR" target="NIGHT_KING" weight="4.0" />
+      <edge id="374" source="HODOR" target="OLD_NAN" weight="2.0" />
+      <edge id="375" source="MEERA" target="LEAF" weight="13.0" />
+      <edge id="376" source="MEERA" target="NIGHT_KING" weight="7.0" />
+      <edge id="377" source="MEERA" target="OLD_NAN" weight="2.0" />
+      <edge id="378" source="BERIC" target="HOUND" weight="26.0" />
+      <edge id="379" source="BERIC" target="LEM" weight="3.0" />
+      <edge id="380" source="BERIC" target="THOROS" weight="8.0" />
+      <edge id="381" source="HOUND" target="GATINS" weight="9.0" />
+      <edge id="382" source="HOUND" target="LEM" weight="6.0" />
+      <edge id="383" source="HOUND" target="RAY" weight="41.0" />
+      <edge id="384" source="HOUND" target="THOROS" weight="25.0" />
+      <edge id="385" source="LEM" target="FLYNN" weight="2.0" />
+      <edge id="386" source="LEM" target="MORGAN" weight="2.0" />
+      <edge id="387" source="LEM" target="RAY" weight="11.0" />
+      <edge id="388" source="LEM" target="THOROS" weight="3.0" />
+      <edge id="389" source="MARGAERY" target="HIGH_SPARROW" weight="76.0" />
+      <edge id="390" source="MARGAERY" target="JAIME" weight="8.0" />
+      <edge id="391" source="MARGAERY" target="KEVAN" weight="4.0" />
+      <edge id="392" source="MARGAERY" target="LANCEL" weight="6.0" />
+      <edge id="393" source="MARGAERY" target="LORAS" weight="33.0" />
+      <edge id="394" source="MARGAERY" target="MACE" weight="9.0" />
+      <edge id="395" source="MARGAERY" target="OLENNA" weight="40.0" />
+      <edge id="396" source="MARGAERY" target="SEPTA_UNELLA" weight="21.0" />
+      <edge id="397" source="MARGAERY" target="TOMMEN" weight="36.0" />
+      <edge id="398" source="BLACK_WALDER" target="BRONN" weight="5.0" />
+      <edge id="399" source="BLACK_WALDER" target="BRYNDEN" weight="5.0" />
+      <edge id="400" source="BLACK_WALDER" target="EDMURE" weight="9.0" />
+      <edge id="401" source="BLACK_WALDER" target="JAIME" weight="14.0" />
+      <edge id="402" source="BLACK_WALDER" target="LOTHAR" weight="15.0" />
+      <edge id="403" source="BRONN" target="BRYNDEN" weight="2.0" />
+      <edge id="404" source="BRONN" target="EDMURE" weight="3.0" />
+      <edge id="405" source="BRONN" target="JAIME" weight="36.0" />
+      <edge id="406" source="BRONN" target="LOTHAR" weight="4.0" />
+      <edge id="407" source="BRONN" target="PODRICK" weight="21.0" />
+      <edge id="408" source="BRYNDEN" target="BRIENNE" weight="32.0" />
+      <edge id="409" source="BRYNDEN" target="EDMURE" weight="11.0" />
+      <edge id="410" source="BRYNDEN" target="GUARD_CAPTAIN" weight="6.0" />
+      <edge id="411" source="BRYNDEN" target="JAIME" weight="35.0" />
+      <edge id="412" source="BRYNDEN" target="LOTHAR" weight="4.0" />
+      <edge id="413" source="BRYNDEN" target="MINISA" weight="2.0" />
+      <edge id="414" source="BRYNDEN" target="PODRICK" weight="6.0" />
+      <edge id="415" source="EDMURE" target="CATELYN" weight="2.0" />
+      <edge id="416" source="EDMURE" target="GUARD_CAPTAIN" weight="7.0" />
+      <edge id="417" source="EDMURE" target="HOSTER" weight="2.0" />
+      <edge id="418" source="EDMURE" target="JAIME" weight="31.0" />
+      <edge id="419" source="EDMURE" target="LOTHAR" weight="6.0" />
+      <edge id="420" source="EDMURE" target="SON_OF_EDMURE" weight="2.0" />
+      <edge id="421" source="JAIME" target="BRIENNE" weight="50.0" />
+      <edge id="422" source="JAIME" target="CATELYN" weight="6.0" />
+      <edge id="423" source="JAIME" target="HIGH_SPARROW" weight="33.0" />
+      <edge id="424" source="JAIME" target="KEVAN" weight="12.0" />
+      <edge id="425" source="JAIME" target="LORAS" weight="2.0" />
+      <edge id="426" source="JAIME" target="LOTHAR" weight="13.0" />
+      <edge id="427" source="JAIME" target="MACE" weight="8.0" />
+      <edge id="428" source="JAIME" target="MYRCELLA" weight="4.0" />
+      <edge id="429" source="JAIME" target="OLENNA" weight="10.0" />
+      <edge id="430" source="JAIME" target="PODRICK" weight="3.0" />
+      <edge id="431" source="JAIME" target="PYCELLE" weight="3.0" />
+      <edge id="432" source="JAIME" target="ROBB" weight="2.0" />
+      <edge id="433" source="JAIME" target="SON_OF_EDMURE" weight="4.0" />
+      <edge id="434" source="JAIME" target="TOMMEN" weight="36.0" />
+      <edge id="435" source="LEAF" target="NIGHT_KING" weight="6.0" />
+      <edge id="436" source="BRIENNE" target="LITTLEFINGER" weight="5.0" />
+      <edge id="437" source="BRIENNE" target="PODRICK" weight="27.0" />
+      <edge id="438" source="BRIENNE" target="STANNIS" weight="4.0" />
+      <edge id="439" source="LITTLEFINGER" target="RAMSAY" weight="2.0" />
+      <edge id="440" source="LITTLEFINGER" target="ROBIN" weight="15.0" />
+      <edge id="441" source="LITTLEFINGER" target="SMALLJON" weight="2.0" />
+      <edge id="442" source="LITTLEFINGER" target="YOHN_ROYCE" weight="16.0" />
+      <edge id="443" source="CATELYN" target="ROBB" weight="2.0" />
+      <edge id="444" source="ROBB" target="GLOVER" weight="2.0" />
+      <edge id="445" source="ROBB" target="LYANNA_MORMONT" weight="4.0" />
+      <edge id="446" source="ROBB" target="MANDERLY" weight="3.0" />
+      <edge id="447" source="ROBB" target="ROBETT" weight="3.0" />
+      <edge id="448" source="HIGH_SPARROW" target="KEVAN" weight="3.0" />
+      <edge id="449" source="HIGH_SPARROW" target="LANCEL" weight="8.0" />
+      <edge id="450" source="HIGH_SPARROW" target="LORAS" weight="22.0" />
+      <edge id="451" source="HIGH_SPARROW" target="MACE" weight="6.0" />
+      <edge id="452" source="HIGH_SPARROW" target="OLENNA" weight="4.0" />
+      <edge id="453" source="HIGH_SPARROW" target="SEPTA_UNELLA" weight="10.0" />
+      <edge id="454" source="HIGH_SPARROW" target="TOMMEN" weight="49.0" />
+      <edge id="455" source="KEVAN" target="LORAS" weight="3.0" />
+      <edge id="456" source="KEVAN" target="MACE" weight="3.0" />
+      <edge id="457" source="KEVAN" target="OLENNA" weight="7.0" />
+      <edge id="458" source="KEVAN" target="PYCELLE" weight="5.0" />
+      <edge id="459" source="KEVAN" target="TOMMEN" weight="7.0" />
+      <edge id="460" source="LANCEL" target="LORAS" weight="5.0" />
+      <edge id="461" source="LANCEL" target="MACE" weight="2.0" />
+      <edge id="462" source="LANCEL" target="SEPTA_UNELLA" weight="2.0" />
+      <edge id="463" source="LORAS" target="MACE" weight="3.0" />
+      <edge id="464" source="LORAS" target="OLENNA" weight="4.0" />
+      <edge id="465" source="LORAS" target="TOMMEN" weight="7.0" />
+      <edge id="466" source="MACE" target="OLENNA" weight="11.0" />
+      <edge id="467" source="MACE" target="PYCELLE" weight="3.0" />
+      <edge id="468" source="MYRCELLA" target="TOMMEN" weight="4.0" />
+      <edge id="469" source="OLENNA" target="NYMERIA" weight="4.0" />
+      <edge id="470" source="OLENNA" target="OBARA" weight="7.0" />
+      <edge id="471" source="OLENNA" target="PYCELLE" weight="3.0" />
+      <edge id="472" source="OLENNA" target="SEPTA_UNELLA" weight="7.0" />
+      <edge id="473" source="OLENNA" target="TOMMEN" weight="3.0" />
+      <edge id="474" source="PYCELLE" target="TOMMEN" weight="10.0" />
+      <edge id="475" source="DAARIO" target="DOSH_KHALEEN_LEADER" weight="2.0" />
+      <edge id="476" source="DAARIO" target="JORAH" weight="60.0" />
+      <edge id="477" source="DAARIO" target="KHAL_MORO" weight="2.0" />
+      <edge id="478" source="DAARIO" target="LHAZAREEN_WOMAN" weight="4.0" />
+      <edge id="479" source="DOSH_KHALEEN_LEADER" target="JORAH" weight="2.0" />
+      <edge id="480" source="DOSH_KHALEEN_LEADER" target="LHAZAREEN_WOMAN" weight="8.0" />
+      <edge id="481" source="JORAH" target="KHAL_MORO" weight="2.0" />
+      <edge id="482" source="JORAH" target="LHAZAREEN_WOMAN" weight="3.0" />
+      <edge id="483" source="KHAL_MORO" target="DROGO" weight="5.0" />
+      <edge id="484" source="VALA" target="DOM" weight="3.0" />
+      <edge id="485" source="GLOVER" target="MANDERLY" weight="4.0" />
+      <edge id="486" source="GLOVER" target="ROBETT" weight="2.0" />
+      <edge id="487" source="HARALD" target="LYANNA_MORMONT" weight="2.0" />
+      <edge id="488" source="HARALD" target="RAMSAY" weight="4.0" />
+      <edge id="489" source="HARALD" target="SMALLJON" weight="3.0" />
+      <edge id="490" source="LYANNA_MORMONT" target="MAESTER_MORMONT" weight="7.0" />
+      <edge id="491" source="LYANNA_MORMONT" target="MANDERLY" weight="2.0" />
+      <edge id="492" source="LYANNA_MORMONT" target="RAMSAY" weight="3.0" />
+      <edge id="493" source="LYANNA_MORMONT" target="SMALLJON" weight="2.0" />
+      <edge id="494" source="RAMSAY" target="MAESTER_WOLKAN" weight="12.0" />
+      <edge id="495" source="RAMSAY" target="MYRANDA" weight="8.0" />
+      <edge id="496" source="RAMSAY" target="OSHA" weight="23.0" />
+      <edge id="497" source="RAMSAY" target="RICKARD_KARSTARK" weight="8.0" />
+      <edge id="498" source="RAMSAY" target="ROOSE_BOLTON" weight="25.0" />
+      <edge id="499" source="RAMSAY" target="SMALLJON" weight="34.0" />
+      <edge id="500" source="RAMSAY" target="SON_OFWALDA" weight="11.0" />
+      <edge id="501" source="RAMSAY" target="WALDA" weight="20.0" />
+      <edge id="502" source="SMALLJON" target="OSHA" weight="2.0" />
+      <edge id="503" source="SMALLJON" target="RICKARD_KARSTARK" weight="5.0" />
+      <edge id="504" source="SMALLJON" target="ROOSE_BOLTON" weight="3.0" />
+      <edge id="505" source="DICKON" target="GILLY" weight="4.0" />
+      <edge id="506" source="DICKON" target="MELESSA" weight="2.0" />
+      <edge id="507" source="DICKON" target="RANDYLL" weight="3.0" />
+      <edge id="508" source="DICKON" target="SAM" weight="11.0" />
+      <edge id="509" source="DICKON" target="TALLA" weight="2.0" />
+      <edge id="510" source="GILLY" target="LITTLE_SAM" weight="18.0" />
+      <edge id="511" source="GILLY" target="MAESTER_CITADEL" weight="4.0" />
+      <edge id="512" source="GILLY" target="MELESSA" weight="15.0" />
+      <edge id="513" source="GILLY" target="RANDYLL" weight="8.0" />
+      <edge id="514" source="GILLY" target="SAM" weight="80.0" />
+      <edge id="515" source="GILLY" target="TALLA" weight="8.0" />
+      <edge id="516" source="MELESSA" target="LITTLE_SAM" weight="5.0" />
+      <edge id="517" source="MELESSA" target="RANDYLL" weight="11.0" />
+      <edge id="518" source="MELESSA" target="SAM" weight="21.0" />
+      <edge id="519" source="MELESSA" target="TALLA" weight="12.0" />
+      <edge id="520" source="RANDYLL" target="LITTLE_SAM" weight="2.0" />
+      <edge id="521" source="RANDYLL" target="SAM" weight="14.0" />
+      <edge id="522" source="RANDYLL" target="TALLA" weight="5.0" />
+      <edge id="523" source="SAM" target="LITTLE_SAM" weight="21.0" />
+      <edge id="524" source="SAM" target="MAESTER_AEMON" weight="2.0" />
+      <edge id="525" source="SAM" target="MAESTER_CITADEL" weight="13.0" />
+      <edge id="526" source="SAM" target="TALLA" weight="8.0" />
+      <edge id="527" source="TALLA" target="LITTLE_SAM" weight="3.0" />
+      <edge id="528" source="NYMERIA" target="OBARA" weight="9.0" />
+      <edge id="529" source="NYMERIA" target="TRYSTANE" weight="7.0" />
+      <edge id="530" source="OBARA" target="TRYSTANE" weight="6.0" />
+      <edge id="531" source="FLYNN" target="MORGAN" weight="2.0" />
+      <edge id="532" source="FLYNN" target="RAY" weight="2.0" />
+      <edge id="533" source="MORGAN" target="RAY" weight="2.0" />
+      <edge id="534" source="ROOSE_BOLTON" target="MAESTER_WOLKAN" weight="2.0" />
+      <edge id="535" source="ROOSE_BOLTON" target="RICKARD_KARSTARK" weight="5.0" />
+      <edge id="536" source="ROOSE_BOLTON" target="WALDA" weight="3.0" />
+      <edge id="537" source="ROBIN" target="YOHN_ROYCE" weight="7.0" />
+      <edge id="538" source="MAESTER_WOLKAN" target="MYRANDA" weight="4.0" />
+      <edge id="539" source="MAESTER_WOLKAN" target="RICKARD_KARSTARK" weight="4.0" />
+      <edge id="540" source="SON_OFWALDA" target="WALDA" weight="10.0" />
+    </edges>
+  </graph>
+</gexf>
