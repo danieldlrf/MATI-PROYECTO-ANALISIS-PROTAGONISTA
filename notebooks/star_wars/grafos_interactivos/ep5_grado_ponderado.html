@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Wars · Episodio V — El imperio contraataca</title>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #FAFAFA; overflow: hidden; }
+    #header {
+      position: absolute; top: 12px; left: 16px; z-index: 10;
+      background: rgba(255,255,255,0.94); padding: 12px 16px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12); max-width: 480px;
+    }
+    #header h2 { margin: 0 0 4px 0; font-size: 18px; color: #1A1A1A; }
+    #header p { margin: 0; font-size: 12px; color: #555; }
+    #legend {
+      position: absolute; bottom: 16px; left: 16px; z-index: 10;
+      background: rgba(255,255,255,0.94); padding: 10px 14px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12); font-size: 12px; max-width: 360px;
+      max-height: 40vh; overflow: auto;
+    }
+    #stats {
+      position: absolute; bottom: 16px; right: 16px; z-index: 10;
+      background: rgba(255,255,255,0.94); padding: 10px 14px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12); font-size: 12px; max-width: 340px;
+      line-height: 1.5; max-height: 45vh; overflow: auto;
+    }
+    #controls {
+      position: absolute; top: 12px; right: 16px; z-index: 10;
+      background: rgba(255,255,255,0.94); padding: 10px 12px; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12); font-size: 12px;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .btn-row { display: flex; gap: 6px; }
+    .slider-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: #333; font-weight: bold; }
+    button {
+      padding: 6px 10px; cursor: pointer; border: 1px solid #CCC;
+      background: #FFF; border-radius: 4px; font-weight: bold;
+    }
+    button:hover { background: #EEE; }
+    #mynetwork { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h2>Star Wars · Episodio V — El imperio contraataca</h2>
+    <p>Tamaño del nodo = grado_ponderado | Borde = comunidad | Grosor de arista = escenas</p>
+  </div>
+  <div id="controls">
+    <div class="btn-row">
+      <button onclick="network.fit({animation: true})">Centrar grafo</button>
+      <button id="btnPhysics" onclick="togglePhysics()">Activar física</button>
+    </div>
+    <div class="slider-row">
+      <label for="spreadSlider">Separación:</label>
+      <input type="range" id="spreadSlider" min="0.5" max="2.5" step="0.1" value="1.0" oninput="escalarDisposicion(this.value)">
+      <span id="spreadVal">1.0x</span>
+    </div>
+    <div class="slider-row">
+      <label for="fontSlider">Tamaño texto:</label>
+      <input type="range" id="fontSlider" min="0.5" max="2.5" step="0.1" value="1.0" oninput="escalarTexto(this.value)">
+      <span id="fontVal">1.0x</span>
+    </div>
+  </div>
+  <div id="legend">
+    <div style="font-weight:bold;margin-bottom:6px;">Comunidades (color del borde)</div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;"><span style="width:12px;height:12px;background:#E63946;display:inline-block;margin-right:6px;border-radius:50%;flex-shrink:0;"></span><span>Com. 1: Luke (7 pers.)</span></div><div style="display:flex;align-items:center;margin-bottom:4px;"><span style="width:12px;height:12px;background:#1D3557;display:inline-block;margin-right:6px;border-radius:50%;flex-shrink:0;"></span><span>Com. 2: Darth Vader (6 pers.)</span></div><div style="display:flex;align-items:center;margin-bottom:4px;"><span style="width:12px;height:12px;background:#90A4AE;display:inline-block;margin-right:6px;border-radius:50%;flex-shrink:0;"></span><span>Resto: comunidades pequeñas o de un solo personaje</span></div>
+  </div>
+  <div id="stats"><b>Características del grafo</b><br>Personajes (nodos): 21<br>Aristas: 55<br>Densidad: 0.262<br>Componentes conexas: 1<br>Camino medio: 2.06<br>Diámetro: 4<br>Comunidades: 9 (modularidad -0.014)<hr style="margin:6px 0"><b>Top 3 por métrica</b><br>Grado: Luke (12), Darth Vader (11), Han (11)<br>Grado pond.: Han (102), Leia (98), C-3Po (93)<br>Intermediación: Luke (0.416), Darth Vader (0.325), Han (0.112)<br>Autovector: Han (0.514), Leia (0.501), C-3Po (0.479)<br>Cercanía: Luke (0.714), Darth Vader (0.667), Han (0.667)</div>
+  <div id="mynetwork"></div>
+
+  <script type="text/javascript">
+    var nodes = new vis.DataSet([{"id": "BOBA FETT", "label": "BOBA FETT", "consulta": "Boba Fett", "x": -777.1003849315368, "y": 492.9311802343625, "baseX": -777.1003849315368, "baseY": 492.9311802343625, "baseFontSize": 27, "size": 28.80713415016819, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#1D3557", "highlight": {"background": "#CFD8DC", "border": "#1D3557"}}, "font": {"size": 27, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>BOBA FETT</b> (Comunidad 2)<br>Grado: 7<br>Grado ponderado: 10<br>Intermediaci\u00f3n: 0.0243<br>Autovector: 0.0316<br>Cercan\u00eda: 0.5263"}, {"id": "C-3PO", "label": "C-3PO", "consulta": "C-3Po", "x": -659.0824864016854, "y": -111.07925244924859, "baseX": -659.0824864016854, "baseY": -111.07925244924859, "baseFontSize": 51, "size": 70.34931889740429, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#2A9D8F", "highlight": {"background": "#CFD8DC", "border": "#2A9D8F"}}, "font": {"size": 51, "color": "#111111", "face": "Arial", "bold": true, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>C-3PO</b> (Comunidad 3)<br>Grado: 10<br>Grado ponderado: 93<br>Intermediaci\u00f3n: 0.0740<br>Autovector: 0.4788<br>Cercan\u00eda: 0.6452"}, {"id": "CHEWBACCA", "label": "CHEWBACCA", "consulta": "Chewbacca", "x": -466.1312264282521, "y": -147.90916824563558, "baseX": -466.1312264282521, "baseY": -147.90916824563558, "baseFontSize": 49, "size": 65.33882071522336, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#F4A261", "highlight": {"background": "#CFD8DC", "border": "#F4A261"}}, "font": {"size": 49, "color": "#111111", "face": "Arial", "bold": true, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>CHEWBACCA</b> (Comunidad 4)<br>Grado: 9<br>Grado ponderado: 81<br>Intermediaci\u00f3n: 0.0266<br>Autovector: 0.4168<br>Cercan\u00eda: 0.6250"}, {"id": "DARTH VADER", "label": "DARTH VADER", "consulta": "Darth Vader", "x": -405.75088880039334, "y": 639.410730033448, "baseX": -405.75088880039334, "baseY": 639.410730033448, "baseFontSize": 33, "size": 38.378546470753456, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#1D3557", "highlight": {"background": "#CFD8DC", "border": "#1D3557"}}, "font": {"size": 33, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>DARTH VADER</b> (Comunidad 2)<br>Grado: 11<br>Grado ponderado: 25<br>Intermediaci\u00f3n: 0.3247<br>Autovector: 0.0456<br>Cercan\u00eda: 0.6667"}, {"id": "HAN", "label": "HAN", "consulta": "Han Solo", "x": -588.1111561597772, "y": -290.5617053479955, "baseX": -588.1111561597772, "baseY": -290.5617053479955, "baseFontSize": 53, "size": 73.999999999599, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#8338EC", "highlight": {"background": "#CFD8DC", "border": "#8338EC"}}, "font": {"size": 53, "color": "#111111", "face": "Arial", "bold": true, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>HAN</b> (Comunidad 5)<br>Grado: 11<br>Grado ponderado: 102<br>Intermediaci\u00f3n: 0.1118<br>Autovector: 0.5136<br>Cercan\u00eda: 0.6667"}, {"id": "LANDO", "label": "LANDO", "consulta": "Lando Calrissian", "x": -500.2168522761363, "y": 88.92309491615116, "baseX": -500.2168522761363, "baseY": 88.92309491615116, "baseFontSize": 39, "size": 47.46253491154424, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#06D6A0", "highlight": {"background": "#CFD8DC", "border": "#06D6A0"}}, "font": {"size": 39, "color": "#111111", "face": "Arial", "bold": true, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>LANDO</b> (Comunidad 6)<br>Grado: 8<br>Grado ponderado: 42<br>Intermediaci\u00f3n: 0.0098<br>Autovector: 0.2084<br>Cercan\u00eda: 0.6061"}, {"id": "LEIA", "label": "LEIA", "consulta": "Leia Organa", "x": -761.2771104775734, "y": -189.5327840892184, "baseX": -761.2771104775734, "baseY": -189.5327840892184, "baseFontSize": 53, "size": 72.38796517960886, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#FF006E", "highlight": {"background": "#CFD8DC", "border": "#FF006E"}}, "font": {"size": 53, "color": "#111111", "face": "Arial", "bold": true, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>LEIA</b> (Comunidad 7)<br>Grado: 10<br>Grado ponderado: 98<br>Intermediaci\u00f3n: 0.0740<br>Autovector: 0.5011<br>Cercan\u00eda: 0.6452"}, {"id": "PIETT", "label": "PIETT", "consulta": "Firmus Piett", "x": -308.81321446205783, "y": 1129.8377898035244, "baseX": -308.81321446205783, "baseY": 1129.8377898035244, "baseFontSize": 28, "size": 29.531312952815547, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#1D3557", "highlight": {"background": "#CFD8DC", "border": "#1D3557"}}, "font": {"size": 28, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>PIETT</b> (Comunidad 2)<br>Grado: 4<br>Grado ponderado: 11<br>Intermediaci\u00f3n: 0.0079<br>Autovector: 0.0045<br>Cercan\u00eda: 0.4348"}, {"id": "DERLIN", "label": "DERLIN", "consulta": "Bren Derlin", "x": -1800.0, "y": -210.86617991097125, "baseX": -1800.0, "baseY": -210.86617991097125, "baseFontSize": 23, "size": 21.694933757462916, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#2A9D8F", "highlight": {"background": "#CFD8DC", "border": "#2A9D8F"}}, "font": {"size": 23, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>DERLIN</b> (Comunidad 3)<br>Grado: 2<br>Grado ponderado: 2<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0125<br>Cercan\u00eda: 0.4082"}, {"id": "LUKE", "label": "LUKE", "consulta": "Luke Skywalker", "x": 18.5710662734381, "y": -479.7175164662768, "baseX": 18.5710662734381, "baseY": -479.7175164662768, "baseFontSize": 36, "size": 43.865026297577884, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#E63946", "highlight": {"background": "#CFD8DC", "border": "#E63946"}}, "font": {"size": 36, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>LUKE</b> (Comunidad 1)<br>Grado: 12<br>Grado ponderado: 35<br>Intermediaci\u00f3n: 0.4162<br>Autovector: 0.0869<br>Cercan\u00eda: 0.7143"}, {"id": "R2-D2", "label": "R2-D2", "consulta": "R2-D2", "x": -374.5975650584551, "y": -400.8711543528382, "baseX": -374.5975650584551, "baseY": -400.8711543528382, "baseFontSize": 35, "size": 42.26763017542565, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#3A86FF", "highlight": {"background": "#CFD8DC", "border": "#3A86FF"}}, "font": {"size": 35, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>R2-D2</b> (Comunidad 8)<br>Grado: 6<br>Grado ponderado: 32<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.1568<br>Cercan\u00eda: 0.5128"}, {"id": "RIEEKAN", "label": "RIEEKAN", "consulta": "Carlist Rieekan", "x": -1143.6697351039893, "y": -471.1233773131508, "baseX": -1143.6697351039893, "baseY": -471.1233773131508, "baseFontSize": 27, "size": 28.06250913533279, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#FB5607", "highlight": {"background": "#CFD8DC", "border": "#FB5607"}}, "font": {"size": 27, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>RIEEKAN</b> (Comunidad 9)<br>Grado: 4<br>Grado ponderado: 9<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0568<br>Cercan\u00eda: 0.4444"}, {"id": "DACK", "label": "DACK", "consulta": "Dak Ralter", "x": 842.4114547910089, "y": -396.45348999291474, "baseX": 842.4114547910089, "baseY": -396.45348999291474, "baseFontSize": 24, "size": 22.85052744148615, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#E63946", "highlight": {"background": "#CFD8DC", "border": "#E63946"}}, "font": {"size": 24, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>DACK</b> (Comunidad 1)<br>Grado: 1<br>Grado ponderado: 3<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0033<br>Cercan\u00eda: 0.4255"}, {"id": "EMPEROR", "label": "EMPEROR", "consulta": "Sheev Palpatine", "x": -1154.626257763454, "y": 1800.0, "baseX": -1154.626257763454, "baseY": 1800.0, "baseFontSize": 22, "size": 20.0, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#1D3557", "highlight": {"background": "#CFD8DC", "border": "#1D3557"}}, "font": {"size": 22, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>EMPEROR</b> (Comunidad 2)<br>Grado: 1<br>Grado ponderado: 1<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0006<br>Cercan\u00eda: 0.4082"}, {"id": "NEEDA", "label": "NEEDA", "consulta": "Lorth Needa", "x": 194.67193667857507, "y": 1686.4208411043905, "baseX": 194.67193667857507, "baseY": 1686.4208411043905, "baseFontSize": 23, "size": 21.694933757462916, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#1D3557", "highlight": {"background": "#CFD8DC", "border": "#1D3557"}}, "font": {"size": 23, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>NEEDA</b> (Comunidad 2)<br>Grado: 2<br>Grado ponderado: 2<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0006<br>Cercan\u00eda: 0.4167"}, {"id": "OZZEL", "label": "OZZEL", "consulta": "Kendal Ozzel", "x": -437.3807506684189, "y": 1541.821567418288, "baseX": -437.3807506684189, "baseY": 1541.821567418288, "baseFontSize": 24, "size": 23.863613461207596, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#1D3557", "highlight": {"background": "#CFD8DC", "border": "#1D3557"}}, "font": {"size": 24, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>OZZEL</b> (Comunidad 2)<br>Grado: 2<br>Grado ponderado: 4<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0013<br>Cercan\u00eda: 0.4167"}, {"id": "OBI-WAN", "label": "OBI-WAN", "consulta": "Obi-Wan Kenobi", "x": -3.8913576966340235, "y": -1174.780483744477, "baseX": -3.8913576966340235, "baseY": -1174.780483744477, "baseFontSize": 24, "size": 23.863613461207596, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#E63946", "highlight": {"background": "#CFD8DC", "border": "#E63946"}}, "font": {"size": 24, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>OBI-WAN</b> (Comunidad 1)<br>Grado: 3<br>Grado ponderado: 4<br>Intermediaci\u00f3n: 0.0044<br>Autovector: 0.0089<br>Cercan\u00eda: 0.4651"}, {"id": "ZEV", "label": "ZEV", "consulta": "Zev Senesca", "x": -658.1402299345384, "y": -1352.1900355661899, "baseX": -658.1402299345384, "baseY": -1352.1900355661899, "baseFontSize": 23, "size": 21.694933757462916, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#E63946", "highlight": {"background": "#CFD8DC", "border": "#E63946"}}, "font": {"size": 23, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>ZEV</b> (Comunidad 1)<br>Grado: 2<br>Grado ponderado: 2<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0077<br>Cercan\u00eda: 0.4545"}, {"id": "JANSON", "label": "JANSON", "consulta": "Wes Janson", "x": 1800.0, "y": -1800.0, "baseX": 1800.0, "baseY": -1800.0, "baseFontSize": 23, "size": 21.694933757462916, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#E63946", "highlight": {"background": "#CFD8DC", "border": "#E63946"}}, "font": {"size": 23, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>JANSON</b> (Comunidad 1)<br>Grado: 1<br>Grado ponderado: 2<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0001<br>Cercan\u00eda: 0.3125"}, {"id": "WEDGE", "label": "WEDGE", "consulta": "Wedge Antilles", "x": 1078.912762008174, "y": -1259.116548370331, "baseX": 1078.912762008174, "baseY": -1259.116548370331, "baseFontSize": 24, "size": 23.863613461207596, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#E63946", "highlight": {"background": "#CFD8DC", "border": "#E63946"}}, "font": {"size": 24, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>WEDGE</b> (Comunidad 1)<br>Grado: 2<br>Grado ponderado: 4<br>Intermediaci\u00f3n: 0.1000<br>Autovector: 0.0022<br>Cercan\u00eda: 0.4444"}, {"id": "YODA", "label": "YODA", "consulta": "Yoda", "x": 434.45166172857756, "y": -908.7631465491735, "baseX": 434.45166172857756, "baseY": -908.7631465491735, "baseFontSize": 25, "size": 25.66735258940292, "shape": "dot", "borderWidth": 5, "color": {"background": "#B0BEC5", "border": "#E63946", "highlight": {"background": "#CFD8DC", "border": "#E63946"}}, "font": {"size": 25, "color": "#111111", "face": "Arial", "bold": false, "strokeWidth": 5, "strokeColor": "#FFFFFF"}, "title": "<b>YODA</b> (Comunidad 1)<br>Grado: 2<br>Grado ponderado: 6<br>Intermediaci\u00f3n: 0.0000<br>Autovector: 0.0057<br>Cercan\u00eda: 0.4348"}]);
+    var edges = new vis.DataSet([{"from": "BOBA FETT", "to": "C-3PO", "value": 1.0, "width": 0.9272727272727274, "title": "BOBA FETT \u2194 C-3PO (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "BOBA FETT", "to": "CHEWBACCA", "value": 1.0, "width": 0.9272727272727274, "title": "BOBA FETT \u2194 CHEWBACCA (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "BOBA FETT", "to": "DARTH VADER", "value": 3.0, "width": 1.1818181818181819, "title": "BOBA FETT \u2194 DARTH VADER (3 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "BOBA FETT", "to": "HAN", "value": 1.0, "width": 0.9272727272727274, "title": "BOBA FETT \u2194 HAN (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "BOBA FETT", "to": "LANDO", "value": 2.0, "width": 1.0545454545454547, "title": "BOBA FETT \u2194 LANDO (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "BOBA FETT", "to": "LEIA", "value": 1.0, "width": 0.9272727272727274, "title": "BOBA FETT \u2194 LEIA (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "BOBA FETT", "to": "PIETT", "value": 1.0, "width": 0.9272727272727274, "title": "BOBA FETT \u2194 PIETT (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "CHEWBACCA", "value": 21.0, "width": 3.4727272727272727, "title": "C-3PO \u2194 CHEWBACCA (21 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "DARTH VADER", "value": 1.0, "width": 0.9272727272727274, "title": "C-3PO \u2194 DARTH VADER (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "DERLIN", "value": 1.0, "width": 0.9272727272727274, "title": "C-3PO \u2194 DERLIN (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "HAN", "value": 27.0, "width": 4.236363636363636, "title": "C-3PO \u2194 HAN (27 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "LANDO", "value": 7.0, "width": 1.690909090909091, "title": "C-3PO \u2194 LANDO (7 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "LEIA", "value": 23.0, "width": 3.7272727272727275, "title": "C-3PO \u2194 LEIA (23 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "LUKE", "value": 1.0, "width": 0.9272727272727274, "title": "C-3PO \u2194 LUKE (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "R2-D2", "value": 10.0, "width": 2.0727272727272728, "title": "C-3PO \u2194 R2-D2 (10 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "C-3PO", "to": "RIEEKAN", "value": 1.0, "width": 0.9272727272727274, "title": "C-3PO \u2194 RIEEKAN (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "CHEWBACCA", "to": "DARTH VADER", "value": 1.0, "width": 0.9272727272727274, "title": "CHEWBACCA \u2194 DARTH VADER (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "CHEWBACCA", "to": "HAN", "value": 19.0, "width": 3.2181818181818187, "title": "CHEWBACCA \u2194 HAN (19 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "CHEWBACCA", "to": "LANDO", "value": 9.0, "width": 1.9454545454545455, "title": "CHEWBACCA \u2194 LANDO (9 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "CHEWBACCA", "to": "LEIA", "value": 19.0, "width": 3.2181818181818187, "title": "CHEWBACCA \u2194 LEIA (19 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "CHEWBACCA", "to": "LUKE", "value": 5.0, "width": 1.4363636363636365, "title": "CHEWBACCA \u2194 LUKE (5 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "CHEWBACCA", "to": "R2-D2", "value": 5.0, "width": 1.4363636363636365, "title": "CHEWBACCA \u2194 R2-D2 (5 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "CHEWBACCA", "to": "RIEEKAN", "value": 1.0, "width": 0.9272727272727274, "title": "CHEWBACCA \u2194 RIEEKAN (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "EMPEROR", "value": 1.0, "width": 0.9272727272727274, "title": "DARTH VADER \u2194 EMPEROR (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "HAN", "value": 2.0, "width": 1.0545454545454547, "title": "DARTH VADER \u2194 HAN (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "LANDO", "value": 4.0, "width": 1.309090909090909, "title": "DARTH VADER \u2194 LANDO (4 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "LEIA", "value": 1.0, "width": 0.9272727272727274, "title": "DARTH VADER \u2194 LEIA (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "LUKE", "value": 2.0, "width": 1.0545454545454547, "title": "DARTH VADER \u2194 LUKE (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "NEEDA", "value": 1.0, "width": 0.9272727272727274, "title": "DARTH VADER \u2194 NEEDA (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "OZZEL", "value": 2.0, "width": 1.0545454545454547, "title": "DARTH VADER \u2194 OZZEL (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "DARTH VADER", "to": "PIETT", "value": 7.0, "width": 1.690909090909091, "title": "DARTH VADER \u2194 PIETT (7 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "HAN", "to": "LANDO", "value": 7.0, "width": 1.690909090909091, "title": "HAN \u2194 LANDO (7 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "HAN", "to": "LEIA", "value": 33.0, "width": 5.0, "title": "HAN \u2194 LEIA (33 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "HAN", "to": "LUKE", "value": 4.0, "width": 1.309090909090909, "title": "HAN \u2194 LUKE (4 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "HAN", "to": "OBI-WAN", "value": 1.0, "width": 0.9272727272727274, "title": "HAN \u2194 OBI-WAN (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "HAN", "to": "R2-D2", "value": 4.0, "width": 1.309090909090909, "title": "HAN \u2194 R2-D2 (4 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "HAN", "to": "RIEEKAN", "value": 3.0, "width": 1.1818181818181819, "title": "HAN \u2194 RIEEKAN (3 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "HAN", "to": "ZEV", "value": 1.0, "width": 0.9272727272727274, "title": "HAN \u2194 ZEV (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LANDO", "to": "LEIA", "value": 10.0, "width": 2.0727272727272728, "title": "LANDO \u2194 LEIA (10 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LANDO", "to": "LUKE", "value": 2.0, "width": 1.0545454545454547, "title": "LANDO \u2194 LUKE (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LANDO", "to": "R2-D2", "value": 1.0, "width": 0.9272727272727274, "title": "LANDO \u2194 R2-D2 (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LEIA", "to": "DERLIN", "value": 1.0, "width": 0.9272727272727274, "title": "LEIA \u2194 DERLIN (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LEIA", "to": "LUKE", "value": 1.0, "width": 0.9272727272727274, "title": "LEIA \u2194 LUKE (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LEIA", "to": "R2-D2", "value": 5.0, "width": 1.4363636363636365, "title": "LEIA \u2194 R2-D2 (5 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LEIA", "to": "RIEEKAN", "value": 4.0, "width": 1.309090909090909, "title": "LEIA \u2194 RIEEKAN (4 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "PIETT", "to": "NEEDA", "value": 1.0, "width": 0.9272727272727274, "title": "PIETT \u2194 NEEDA (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "PIETT", "to": "OZZEL", "value": 2.0, "width": 1.0545454545454547, "title": "PIETT \u2194 OZZEL (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LUKE", "to": "DACK", "value": 3.0, "width": 1.1818181818181819, "title": "LUKE \u2194 DACK (3 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LUKE", "to": "OBI-WAN", "value": 2.0, "width": 1.0545454545454547, "title": "LUKE \u2194 OBI-WAN (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LUKE", "to": "R2-D2", "value": 7.0, "width": 1.690909090909091, "title": "LUKE \u2194 R2-D2 (7 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LUKE", "to": "WEDGE", "value": 2.0, "width": 1.0545454545454547, "title": "LUKE \u2194 WEDGE (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LUKE", "to": "YODA", "value": 5.0, "width": 1.4363636363636365, "title": "LUKE \u2194 YODA (5 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "LUKE", "to": "ZEV", "value": 1.0, "width": 0.9272727272727274, "title": "LUKE \u2194 ZEV (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "OBI-WAN", "to": "YODA", "value": 1.0, "width": 0.9272727272727274, "title": "OBI-WAN \u2194 YODA (1 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}, {"from": "JANSON", "to": "WEDGE", "value": 2.0, "width": 1.0545454545454547, "title": "JANSON \u2194 WEDGE (2 escenas)", "color": {"color": "rgba(120, 144, 156, 0.28)", "highlight": "#E63946"}}]);
+    var container = document.getElementById('mynetwork');
+    var data = { nodes: nodes, edges: edges };
+    var physicsEnabled = false;
+
+    var options = {
+      nodes: {
+        borderWidth: 5,
+        shapeProperties: {
+          useBorderWithImage: true
+        },
+        scaling: {
+          label: {
+            enabled: false
+          }
+        }
+      },
+      edges: {
+        smooth: { type: 'continuous' }
+      },
+      physics: {
+        enabled: false,
+        solver: 'forceAtlas2Based',
+        forceAtlas2Based: {
+          gravitationalConstant: -180,
+          centralGravity: 0.005,
+          springLength: 220,
+          springConstant: 0.04,
+          damping: 0.4,
+          avoidOverlap: 1
+        },
+        stabilization: {
+          enabled: false
+        }
+      },
+      interaction: {
+        hover: true,
+        tooltipDelay: 100,
+        navigationButtons: true
+      }
+    };
+
+    var network = new vis.Network(container, data, options);
+    network.once("afterDrawing", function() { network.fit(); });
+
+    // Fotos desde la API de Wookieepedia (si no encuentra, queda el círculo gris)
+    async function cargarFotosPersonajes() {
+      var listaNodos = nodes.get();
+      for (var i = 0; i < listaNodos.length; i++) {
+        var n = listaNodos[i];
+        try {
+          var url = "https://starwars.fandom.com/api.php?action=query&generator=search&gsrsearch=" +
+                    encodeURIComponent(n.consulta) +
+                    "&gsrlimit=4&prop=pageimages&piprop=thumbnail&pithumbsize=250&format=json&origin=*";
+          var resp = await fetch(url);
+          var json = await resp.json();
+          if (json.query && json.query.pages) {
+            var paginas = Object.values(json.query.pages).sort(function(a, b) { return a.index - b.index; });
+            var personaje = paginas.find(function(p) {
+              var t = (p.title || "").toLowerCase();
+              return p.thumbnail && p.thumbnail.source &&
+                     !t.includes("legends") && !t.includes("disambiguation") &&
+                     !t.includes("category:") && !t.includes("file:");
+            });
+            if (personaje) {
+              nodes.update({
+                id: n.id,
+                shape: "circularImage",
+                image: personaje.thumbnail.source
+              });
+            }
+          }
+        } catch (e) {}
+      }
+    }
+    cargarFotosPersonajes();
+
+    function togglePhysics() {
+      physicsEnabled = !physicsEnabled;
+      document.getElementById('btnPhysics').innerText = physicsEnabled ? 'Pausar física' : 'Activar física';
+      network.setOptions({ physics: { enabled: physicsEnabled } });
+    }
+
+    function escalarDisposicion(factor) {
+      var f = parseFloat(factor);
+      document.getElementById('spreadVal').innerText = f.toFixed(1) + 'x';
+      var updates = [];
+      nodes.forEach(function(n) {
+        updates.push({
+          id: n.id,
+          x: n.baseX * f,
+          y: n.baseY * f
+        });
+      });
+      nodes.update(updates);
+      network.fit({ animation: false });
+    }
+
+    function escalarTexto(factor) {
+      var f = parseFloat(factor);
+      document.getElementById('fontVal').innerText = f.toFixed(1) + 'x';
+      var updates = [];
+      nodes.forEach(function(n) {
+        updates.push({
+          id: n.id,
+          font: {
+            size: Math.round(n.baseFontSize * f)
+          }
+        });
+      });
+      nodes.update(updates);
+    }
+  </script>
+</body>
+</html>

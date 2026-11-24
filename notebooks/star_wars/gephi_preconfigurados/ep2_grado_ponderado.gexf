@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="grado" type="long" />
+      <attribute id="1" title="grado_ponderado" type="double" />
+      <attribute id="2" title="intermediacion" type="double" />
+      <attribute id="3" title="autovector" type="double" />
+      <attribute id="4" title="cercania" type="double" />
+      <attribute id="5" title="comunidad" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>24/11/2026</lastmodified>
+    </meta>
+    <nodes>
+      <node id="ANAKIN" label="ANAKIN">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="74.99999999929688" />
+        <viz:position x="-539.4577138287408" y="553.0098445836088" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="65.0" />
+          <attvalue for="2" value="0.3833822091886608" />
+          <attvalue for="3" value="0.5794937843088441" />
+          <attvalue for="4" value="0.7272727272727273" />
+          <attvalue for="5" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="BERU" label="BERU">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="22.49999999991211" />
+        <viz:position x="79.65090267352136" y="1498.5330814053634" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.04827681076686085" />
+          <attvalue for="4" value="0.4507042253521127" />
+          <attvalue for="5" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="C-3PO" label="C-3PO">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="34.191649199637" />
+        <viz:position x="-349.60365868475446" y="1111.8622830769461" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.0020161290322580645" />
+          <attvalue for="3" value="0.17673428498536736" />
+          <attvalue for="4" value="0.45714285714285713" />
+          <attvalue for="5" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="CAPTAIN TYPHO" label="CAPTAIN TYPHO">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="22.49999999991211" />
+        <viz:position x="-664.0027861860411" y="-204.5757331211379" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.06816139254699666" />
+          <attvalue for="4" value="0.5" />
+          <attvalue for="5" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="CLIEGG" label="CLIEGG">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="26.411422888422294" />
+        <viz:position x="-182.88453638846832" y="1356.922055971359" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.08666475171755215" />
+          <attvalue for="4" value="0.4507042253521127" />
+          <attvalue for="5" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="COUNT DOOKU" label="COUNT DOOKU">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="35.21085629768664" />
+        <viz:position x="-401.4088592718627" y="14.624664406156773" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="0.03698287599497276" />
+          <attvalue for="3" value="0.14235135597528606" />
+          <attvalue for="4" value="0.5818181818181818" />
+          <attvalue for="5" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="JAR JAR" label="JAR JAR">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="34.191649199637" />
+        <viz:position x="66.65551944582258" y="127.85441628249474" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.06213037634408602" />
+          <attvalue for="3" value="0.13139560639631453" />
+          <attvalue for="4" value="0.5818181818181818" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="JOBAL" label="JOBAL">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="22.49999999991211" />
+        <viz:position x="-577.9918402122795" y="1753.63740682212" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.04016757304478906" />
+          <attvalue for="4" value="0.4444444444444444" />
+          <attvalue for="5" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="MACE WINDU" label="MACE WINDU">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="42.84916298818604" />
+        <viz:position x="94.55921388589937" y="-108.96256120576587" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.06106165340036306" />
+          <attvalue for="3" value="0.16788378479100485" />
+          <attvalue for="4" value="0.5925925925925926" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="NUTE GUNRAY" label="NUTE GUNRAY">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="26.411422888422294" />
+        <viz:position x="-1035.9446023877922" y="331.009001683793" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.06060299578385849" />
+          <attvalue for="4" value="0.5161290322580645" />
+          <attvalue for="5" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="OBI-WAN" label="OBI-WAN">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="64.85902403327498" />
+        <viz:position x="-357.09414798384665" y="-230.82180079781642" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="0.3148010927244798" />
+          <attvalue for="3" value="0.39487909782212144" />
+          <attvalue for="4" value="0.6808510638297872" />
+          <attvalue for="5" value="Comunidad_7" />
+        </attvalues>
+      </node>
+      <node id="OWEN" label="OWEN">
+        <viz:color a="1.00000000000000" b="87" g="53" r="29" />
+        <viz:size value="31.016247957091522" />
+        <viz:position x="-96.65327669458254" y="1017.3706079446366" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.14007848040420015" />
+          <attvalue for="4" value="0.4507042253521127" />
+          <attvalue for="5" value="Comunidad_2" />
+        </attvalues>
+      </node>
+      <node id="PADME" label="PADME">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="64.10925320083248" />
+        <viz:position x="-380.8441035379778" y="670.1379131900649" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="0.178946725317693" />
+          <attvalue for="3" value="0.49033454715273406" />
+          <attvalue for="4" value="0.6666666666666666" />
+          <attvalue for="5" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="POGGLE" label="POGGLE">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="26.411422888422294" />
+        <viz:position x="-866.8746777017672" y="179.64382371518667" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.06060299578385849" />
+          <attvalue for="4" value="0.5161290322580645" />
+          <attvalue for="5" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="R2-D2" label="R2-D2">
+        <viz:color a="1.00000000000000" b="255" g="134" r="58" />
+        <viz:size value="36.213203435347836" />
+        <viz:position x="-589.3672750596486" y="928.9679567201347" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.262763938066438" />
+          <attvalue for="4" value="0.4383561643835616" />
+          <attvalue for="5" value="Comunidad_8" />
+        </attvalues>
+      </node>
+      <node id="RUWEE" label="RUWEE">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="23.86632758430087" />
+        <viz:position x="-863.0202474588822" y="1237.3207957634636" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.07566519165289319" />
+          <attvalue for="4" value="0.4444444444444444" />
+          <attvalue for="5" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="SHMI" label="SHMI">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="15.0" />
+        <viz:position x="-1680.6721916573285" y="1218.7078623575774" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.01898850709849074" />
+          <attvalue for="4" value="0.4266666666666667" />
+          <attvalue for="5" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="SIO BIBBLE" label="SIO BIBBLE">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="15.0" />
+        <viz:position x="-1800.0" y="570.474865218139" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.01898850709849074" />
+          <attvalue for="4" value="0.4266666666666667" />
+          <attvalue for="5" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="SOLA" label="SOLA">
+        <viz:color a="1.00000000000000" b="143" g="157" r="42" />
+        <viz:size value="22.49999999991211" />
+        <viz:position x="-836.3987816635071" y="1668.3583990493769" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.040167573044789066" />
+          <attvalue for="4" value="0.4444444444444444" />
+          <attvalue for="5" value="Comunidad_3" />
+        </attvalues>
+      </node>
+      <node id="SUN RIT" label="SUN RIT">
+        <viz:color a="1.00000000000000" b="97" g="162" r="244" />
+        <viz:size value="26.411422888422294" />
+        <viz:position x="-1025.1320549679729" y="-13.70810142890595" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.06060299578385849" />
+          <attvalue for="4" value="0.5161290322580645" />
+          <attvalue for="5" value="Comunidad_4" />
+        </attvalues>
+      </node>
+      <node id="WATTO" label="WATTO">
+        <viz:color a="1.00000000000000" b="236" g="56" r="131" />
+        <viz:size value="15.0" />
+        <viz:position x="-1380.4816119135944" y="1800.0" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.01898850709849074" />
+          <attvalue for="4" value="0.4266666666666667" />
+          <attvalue for="5" value="Comunidad_5" />
+        </attvalues>
+      </node>
+      <node id="YODA" label="YODA">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="42.84916298818604" />
+        <viz:position x="61.60326928523241" y="-290.54301981147677" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="0.06106165340036306" />
+          <attvalue for="3" value="0.16540557715134396" />
+          <attvalue for="4" value="0.5925925925925926" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="BAIL ORGANA" label="BAIL ORGANA">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="28.77837980299391" />
+        <viz:position x="405.872156610855" y="-605.4034369263874" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="0.009538646837033933" />
+          <attvalue for="3" value="0.04419942536321681" />
+          <attvalue for="4" value="0.47058823529411764" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="EMPEROR" label="EMPEROR">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="34.191649199637" />
+        <viz:position x="444.8600385861402" y="-277.4405349692719" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="0.028351487222454962" />
+          <attvalue for="3" value="0.05419744708268365" />
+          <attvalue for="4" value="0.48484848484848486" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="KI-ADI-MUNDI" label="KI-ADI-MUNDI">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="22.49999999991211" />
+        <viz:position x="910.7949134697745" y="-900.6032859321697" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0625" />
+          <attvalue for="3" value="0.014160549283236186" />
+          <attvalue for="4" value="0.4050632911392405" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="SENATOR ASK AAK" label="SENATOR ASK AAK">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="26.411422888422294" />
+        <viz:position x="610.788855219406" y="-124.7720654457269" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.006888440860215053" />
+          <attvalue for="3" value="0.03345962731933213" />
+          <attvalue for="4" value="0.463768115942029" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="BOBA FETT" label="BOBA FETT">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="23.86632758430087" />
+        <viz:position x="-878.5908231156095" y="-1421.980627970176" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.019819559386414564" />
+          <attvalue for="4" value="0.42105263157894735" />
+          <attvalue for="5" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="JANGO FETT" label="JANGO FETT">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="23.86632758430087" />
+        <viz:position x="-940.8566340136503" y="-1030.850163635605" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="0.0020161290322580645" />
+          <attvalue for="3" value="0.021915169975854663" />
+          <attvalue for="4" value="0.4266666666666667" />
+          <attvalue for="5" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="TAUN WE" label="TAUN WE">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="28.77837980299391" />
+        <viz:position x="-594.7074552931358" y="-940.2306094382199" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="0.0020161290322580645" />
+          <attvalue for="3" value="0.07211166837793759" />
+          <attvalue for="4" value="0.4266666666666667" />
+          <attvalue for="5" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="ORN FREE TAA" label="ORN FREE TAA">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="21.04445586643659" />
+        <viz:position x="1016.48299347187" y="-25.331060423714113" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00895378801332453" />
+          <attvalue for="4" value="0.3950617283950617" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="PLO KOON" label="PLO KOON">
+        <viz:color a="1.00000000000000" b="70" g="57" r="230" />
+        <viz:size value="15.0" />
+        <viz:position x="1800.0" y="-1635.9867749122284" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0004640118726620259" />
+          <attvalue for="4" value="0.2909090909090909" />
+          <attvalue for="5" value="Comunidad_1" />
+        </attvalues>
+      </node>
+      <node id="LAMA SU" label="LAMA SU">
+        <viz:color a="1.00000000000000" b="160" g="214" r="6" />
+        <viz:size value="26.411422888422294" />
+        <viz:position x="-318.60458946470516" y="-852.8902095006647" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.08236233404428914" />
+          <attvalue for="4" value="0.4155844155844156" />
+          <attvalue for="5" value="Comunidad_6" />
+        </attvalues>
+      </node>
+      <node id="PK-4" label="PK-4">
+        <viz:color a="1.00000000000000" b="110" g="0" r="255" />
+        <viz:size value="15.0" />
+        <viz:position x="-225.83640609959764" y="-1800.0" z="0.000000000000000" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.012939418993683054" />
+          <attvalue for="4" value="0.41025641025641024" />
+          <attvalue for="5" value="Comunidad_7" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="ANAKIN" target="BERU" weight="1.0" />
+      <edge id="1" source="ANAKIN" target="C-3PO" weight="3.0" />
+      <edge id="2" source="ANAKIN" target="CAPTAIN TYPHO" weight="2.0" />
+      <edge id="3" source="ANAKIN" target="CLIEGG" weight="2.0" />
+      <edge id="4" source="ANAKIN" target="COUNT DOOKU" weight="2.0" />
+      <edge id="5" source="ANAKIN" target="JAR JAR" weight="3.0" />
+      <edge id="6" source="ANAKIN" target="JOBAL" weight="1.0" />
+      <edge id="7" source="ANAKIN" target="MACE WINDU" weight="1.0" />
+      <edge id="8" source="ANAKIN" target="NUTE GUNRAY" weight="1.0" />
+      <edge id="9" source="ANAKIN" target="OBI-WAN" weight="13.0" />
+      <edge id="10" source="ANAKIN" target="OWEN" weight="3.0" />
+      <edge id="11" source="ANAKIN" target="PADME" weight="16.0" />
+      <edge id="12" source="ANAKIN" target="POGGLE" weight="1.0" />
+      <edge id="13" source="ANAKIN" target="R2-D2" weight="7.0" />
+      <edge id="14" source="ANAKIN" target="RUWEE" weight="3.0" />
+      <edge id="15" source="ANAKIN" target="SHMI" weight="1.0" />
+      <edge id="16" source="ANAKIN" target="SIO BIBBLE" weight="1.0" />
+      <edge id="17" source="ANAKIN" target="SOLA" weight="1.0" />
+      <edge id="18" source="ANAKIN" target="SUN RIT" weight="1.0" />
+      <edge id="19" source="ANAKIN" target="WATTO" weight="1.0" />
+      <edge id="20" source="ANAKIN" target="YODA" weight="1.0" />
+      <edge id="21" source="BERU" target="C-3PO" weight="1.0" />
+      <edge id="22" source="BERU" target="CLIEGG" weight="1.0" />
+      <edge id="23" source="BERU" target="OWEN" weight="1.0" />
+      <edge id="24" source="BERU" target="PADME" weight="1.0" />
+      <edge id="25" source="C-3PO" target="CLIEGG" weight="1.0" />
+      <edge id="26" source="C-3PO" target="OWEN" weight="2.0" />
+      <edge id="27" source="C-3PO" target="PADME" weight="5.0" />
+      <edge id="28" source="C-3PO" target="R2-D2" weight="3.0" />
+      <edge id="29" source="CAPTAIN TYPHO" target="JAR JAR" weight="1.0" />
+      <edge id="30" source="CAPTAIN TYPHO" target="OBI-WAN" weight="2.0" />
+      <edge id="31" source="CLIEGG" target="OWEN" weight="2.0" />
+      <edge id="32" source="CLIEGG" target="PADME" weight="2.0" />
+      <edge id="33" source="COUNT DOOKU" target="EMPEROR" weight="1.0" />
+      <edge id="34" source="COUNT DOOKU" target="JANGO FETT" weight="1.0" />
+      <edge id="35" source="COUNT DOOKU" target="MACE WINDU" weight="2.0" />
+      <edge id="36" source="COUNT DOOKU" target="NUTE GUNRAY" weight="1.0" />
+      <edge id="37" source="COUNT DOOKU" target="OBI-WAN" weight="2.0" />
+      <edge id="38" source="COUNT DOOKU" target="PADME" weight="3.0" />
+      <edge id="39" source="COUNT DOOKU" target="POGGLE" weight="1.0" />
+      <edge id="40" source="COUNT DOOKU" target="SUN RIT" weight="1.0" />
+      <edge id="41" source="COUNT DOOKU" target="YODA" weight="2.0" />
+      <edge id="42" source="JAR JAR" target="BAIL ORGANA" weight="1.0" />
+      <edge id="43" source="JAR JAR" target="EMPEROR" weight="2.0" />
+      <edge id="44" source="JAR JAR" target="MACE WINDU" weight="1.0" />
+      <edge id="45" source="JAR JAR" target="OBI-WAN" weight="3.0" />
+      <edge id="46" source="JAR JAR" target="ORN FREE TAA" weight="1.0" />
+      <edge id="47" source="JAR JAR" target="PADME" weight="1.0" />
+      <edge id="48" source="JAR JAR" target="SENATOR ASK AAK" weight="1.0" />
+      <edge id="49" source="JAR JAR" target="YODA" weight="1.0" />
+      <edge id="50" source="JOBAL" target="PADME" weight="1.0" />
+      <edge id="51" source="JOBAL" target="RUWEE" weight="1.0" />
+      <edge id="52" source="JOBAL" target="SOLA" weight="2.0" />
+      <edge id="53" source="MACE WINDU" target="BAIL ORGANA" weight="2.0" />
+      <edge id="54" source="MACE WINDU" target="EMPEROR" weight="2.0" />
+      <edge id="55" source="MACE WINDU" target="KI-ADI-MUNDI" weight="1.0" />
+      <edge id="56" source="MACE WINDU" target="OBI-WAN" weight="4.0" />
+      <edge id="57" source="MACE WINDU" target="PADME" weight="2.0" />
+      <edge id="58" source="MACE WINDU" target="SENATOR ASK AAK" weight="1.0" />
+      <edge id="59" source="MACE WINDU" target="YODA" weight="8.0" />
+      <edge id="60" source="NUTE GUNRAY" target="OBI-WAN" weight="1.0" />
+      <edge id="61" source="NUTE GUNRAY" target="PADME" weight="1.0" />
+      <edge id="62" source="NUTE GUNRAY" target="POGGLE" weight="2.0" />
+      <edge id="63" source="NUTE GUNRAY" target="SUN RIT" weight="2.0" />
+      <edge id="64" source="OBI-WAN" target="BAIL ORGANA" weight="1.0" />
+      <edge id="65" source="OBI-WAN" target="BOBA FETT" weight="1.0" />
+      <edge id="66" source="OBI-WAN" target="EMPEROR" weight="1.0" />
+      <edge id="67" source="OBI-WAN" target="JANGO FETT" weight="1.0" />
+      <edge id="68" source="OBI-WAN" target="LAMA SU" weight="6.0" />
+      <edge id="69" source="OBI-WAN" target="PADME" weight="2.0" />
+      <edge id="70" source="OBI-WAN" target="PK-4" weight="1.0" />
+      <edge id="71" source="OBI-WAN" target="POGGLE" weight="1.0" />
+      <edge id="72" source="OBI-WAN" target="SENATOR ASK AAK" weight="1.0" />
+      <edge id="73" source="OBI-WAN" target="SUN RIT" weight="1.0" />
+      <edge id="74" source="OBI-WAN" target="TAUN WE" weight="5.0" />
+      <edge id="75" source="OBI-WAN" target="YODA" weight="5.0" />
+      <edge id="76" source="OWEN" target="PADME" weight="4.0" />
+      <edge id="77" source="PADME" target="POGGLE" weight="1.0" />
+      <edge id="78" source="PADME" target="R2-D2" weight="7.0" />
+      <edge id="79" source="PADME" target="RUWEE" weight="1.0" />
+      <edge id="80" source="PADME" target="SOLA" weight="1.0" />
+      <edge id="81" source="PADME" target="SUN RIT" weight="1.0" />
+      <edge id="82" source="PADME" target="YODA" weight="1.0" />
+      <edge id="83" source="POGGLE" target="SUN RIT" weight="2.0" />
+      <edge id="84" source="RUWEE" target="SOLA" weight="1.0" />
+      <edge id="85" source="YODA" target="BAIL ORGANA" weight="2.0" />
+      <edge id="86" source="YODA" target="EMPEROR" weight="2.0" />
+      <edge id="87" source="YODA" target="KI-ADI-MUNDI" weight="1.0" />
+      <edge id="88" source="YODA" target="SENATOR ASK AAK" weight="1.0" />
+      <edge id="89" source="BAIL ORGANA" target="EMPEROR" weight="2.0" />
+      <edge id="90" source="BAIL ORGANA" target="KI-ADI-MUNDI" weight="1.0" />
+      <edge id="91" source="BAIL ORGANA" target="SENATOR ASK AAK" weight="1.0" />
+      <edge id="92" source="EMPEROR" target="KI-ADI-MUNDI" weight="1.0" />
+      <edge id="93" source="EMPEROR" target="ORN FREE TAA" weight="2.0" />
+      <edge id="94" source="EMPEROR" target="SENATOR ASK AAK" weight="2.0" />
+      <edge id="95" source="KI-ADI-MUNDI" target="PLO KOON" weight="1.0" />
+      <edge id="96" source="SENATOR ASK AAK" target="ORN FREE TAA" weight="1.0" />
+      <edge id="97" source="BOBA FETT" target="JANGO FETT" weight="3.0" />
+      <edge id="98" source="BOBA FETT" target="TAUN WE" weight="2.0" />
+      <edge id="99" source="JANGO FETT" target="TAUN WE" weight="1.0" />
+      <edge id="100" source="TAUN WE" target="LAMA SU" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>
