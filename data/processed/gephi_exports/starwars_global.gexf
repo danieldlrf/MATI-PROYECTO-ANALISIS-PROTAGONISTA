@@ -1,0 +1,3121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-11-24">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="distance" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="weighted_degree" type="long" />
+      <attribute id="1" title="betweenness" type="double" />
+      <attribute id="2" title="eigenvector" type="double" />
+      <attribute id="3" title="comunidad" type="long" />
+    </attributes>
+    <nodes>
+      <node id="DARTH VADER" label="DARTH VADER">
+        <attvalues>
+          <attvalue for="0" value="309" />
+          <attvalue for="1" value="0.5288820931022766" />
+          <attvalue for="2" value="0.15495006147486787" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="R2-D2" label="R2-D2">
+        <attvalues>
+          <attvalue for="0" value="279" />
+          <attvalue for="1" value="0.3433571185864764" />
+          <attvalue for="2" value="0.3109530105003732" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="CHEWBACCA" label="CHEWBACCA">
+        <attvalues>
+          <attvalue for="0" value="297" />
+          <attvalue for="1" value="0.07033639143730887" />
+          <attvalue for="2" value="0.40572509385903016" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="WATTO" label="WATTO">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.012234909536871551" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="QUI-GON" label="QUI-GON">
+        <attvalues>
+          <attvalue for="0" value="152" />
+          <attvalue for="1" value="0.023587042700192552" />
+          <attvalue for="2" value="0.06582175844560556" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="PADME" label="PADME">
+        <attvalues>
+          <attvalue for="0" value="173" />
+          <attvalue for="1" value="0.06563597236380111" />
+          <attvalue for="2" value="0.09733502955006125" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SEBULBA" label="SEBULBA">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0031973550725520094" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="JAR JAR" label="JAR JAR">
+        <attvalues>
+          <attvalue for="0" value="95" />
+          <attvalue for="1" value="0.040321667232982215" />
+          <attvalue for="2" value="0.0317229204127071" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="JIRA" label="JIRA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.002349957513791263" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SHMI" label="SHMI">
+        <attvalues>
+          <attvalue for="0" value="28" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.011120119958491149" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="C-3PO" label="C-3PO">
+        <attvalues>
+          <attvalue for="0" value="310" />
+          <attvalue for="1" value="0.29434250764526" />
+          <attvalue for="2" value="0.40340439028509417" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="KITSTER" label="KITSTER">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00774606768859485" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="WALD" label="WALD">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.002110724276944153" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="OBI-WAN" label="OBI-WAN">
+        <attvalues>
+          <attvalue for="0" value="261" />
+          <attvalue for="1" value="0.2782025144410466" />
+          <attvalue for="2" value="0.16862232756134748" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="JABBA" label="JABBA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.022417249683682958" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="GREEDO" label="GREEDO">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.003005020942954741" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="CAPTAIN PANAKA" label="CAPTAIN PANAKA">
+        <attvalues>
+          <attvalue for="0" value="41" />
+          <attvalue for="1" value="0.017159361196058445" />
+          <attvalue for="2" value="0.01361035846517273" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="RIC OLIE" label="RIC OLIE">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="0.027353041114509008" />
+          <attvalue for="2" value="0.005771811410541934" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="MACE WINDU" label="MACE WINDU">
+        <attvalues>
+          <attvalue for="0" value="53" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.017972106362866166" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="KI-ADI-MUNDI" label="KI-ADI-MUNDI">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="0.01834862385321101" />
+          <attvalue for="2" value="0.0039587072501047985" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="YODA" label="YODA">
+        <attvalues>
+          <attvalue for="0" value="82" />
+          <attvalue for="1" value="0.054366292898402994" />
+          <attvalue for="2" value="0.0414274814059538" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="RABE" label="RABE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0012390469990478765" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BOSS NASS" label="BOSS NASS">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0039053962632304047" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BRAVO TWO" label="BRAVO TWO">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0014585389722217262" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BRAVO THREE" label="BRAVO THREE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0007387691080587355" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="CAPTAIN TYPHO" label="CAPTAIN TYPHO">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.009359157631838177" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SIO BIBBLE" label="SIO BIBBLE">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0029188061833990355" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SOLA" label="SOLA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0011206751134541287" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="JOBAL" label="JOBAL">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0011206751134541287" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="RUWEE" label="RUWEE">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0024613533231947686" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="OWEN" label="OWEN">
+        <attvalues>
+          <attvalue for="0" value="22" />
+          <attvalue for="1" value="0.00016989466530750936" />
+          <attvalue for="2" value="0.017846745974773832" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="BERU" label="BERU">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.013857620876686117" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="CLIEGG" label="CLIEGG">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.004175497391283203" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUN RIT" label="SUN RIT">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.001911780667643656" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="POGGLE" label="POGGLE">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.001911780667643656" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="NUTE GUNRAY" label="NUTE GUNRAY">
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="0.08936459395174992" />
+          <attvalue for="2" value="0.0036438086281913684" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="COUNT DOOKU" label="COUNT DOOKU">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.006383314882902232" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="ODD BALL" label="ODD BALL">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0028220530876936424" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="EMPEROR" label="EMPEROR">
+        <attvalues>
+          <attvalue for="0" value="84" />
+          <attvalue for="1" value="0.18034318722392118" />
+          <attvalue for="2" value="0.036929121694598" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="GENERAL GRIEVOUS" label="GENERAL GRIEVOUS">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0021622378123613457" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BAIL ORGANA" label="BAIL ORGANA">
+        <attvalues>
+          <attvalue for="0" value="49" />
+          <attvalue for="1" value="0.01834862385321101" />
+          <attvalue for="2" value="0.021837638494906667" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="CLONE COMMANDER CODY" label="CLONE COMMANDER CODY">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0024053814391755265" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LEIA" label="LEIA">
+        <attvalues>
+          <attvalue for="0" value="258" />
+          <attvalue for="1" value="0.02743798844716276" />
+          <attvalue for="2" value="0.3897047081659045" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="MOTTI" label="MOTTI">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0024313040395990133" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="TARKIN" label="TARKIN">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0.01834862385321101" />
+          <attvalue for="2" value="0.00645048535658281" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="PIETT" label="PIETT">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="8.494733265375468e-05" />
+          <attvalue for="2" value="0.005476912697083908" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="OZZEL" label="OZZEL">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0013991815597984543" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="NEEDA" label="NEEDA">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0006995907798992272" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BOBA FETT" label="BOBA FETT">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="0.018263676520557257" />
+          <attvalue for="2" value="0.012844316759426003" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LANDO" label="LANDO">
+        <attvalues>
+          <attvalue for="0" value="81" />
+          <attvalue for="1" value="0.05334692490655794" />
+          <attvalue for="2" value="0.11263304818487394" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="HAN" label="HAN">
+        <attvalues>
+          <attvalue for="0" value="360" />
+          <attvalue for="1" value="0.2964661909616038" />
+          <attvalue for="2" value="0.4662379552577979" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="LUKE" label="LUKE">
+        <attvalues>
+          <attvalue for="0" value="241" />
+          <attvalue for="1" value="0.22714916751614" />
+          <attvalue for="2" value="0.31305943982383005" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="JERJERROD" label="JERJERROD">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0006757060741937247" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BB-8" label="BB-8">
+        <attvalues>
+          <attvalue for="0" value="72" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.05925033275129517" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="CAPTAIN ANTILLES" label="CAPTAIN ANTILLES">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0033055067901737872" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BIGGS" label="BIGGS">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="0.00016989466530750936" />
+          <attvalue for="2" value="0.010483984055895856" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="RIEEKAN" label="RIEEKAN">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.016424839055474486" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="FINN" label="FINN">
+        <attvalues>
+          <attvalue for="0" value="113" />
+          <attvalue for="1" value="0.15273530411145092" />
+          <attvalue for="2" value="0.10446153904252821" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="REY" label="REY">
+        <attvalues>
+          <attvalue for="0" value="87" />
+          <attvalue for="1" value="0.10584437648657832" />
+          <attvalue for="2" value="0.07863199492158121" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="BALA-TIK" label="BALA-TIK">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.006892079553431064" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="MAZ" label="MAZ">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.01404252263141672" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="POE" label="POE">
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="0.1062691131498471" />
+          <attvalue for="2" value="0.02363656964531397" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="KYLO REN" label="KYLO REN">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="0.07186544342507646" />
+          <attvalue for="2" value="0.013941147255549027" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="CAPTAIN PHASMA" label="CAPTAIN PHASMA">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.007371196232395053" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="LOR SAN TEKKA" label="LOR SAN TEKKA">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00091886439065069" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="UNKAR PLUTT" label="UNKAR PLUTT">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0009441182148440375" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="PK-4" label="PK-4">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0007398627388431475" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="TC-14" label="TC-14">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.00016989466530750936" />
+          <attvalue for="2" value="0.0010415696583857686" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="DOFINE" label="DOFINE">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.0526078369499525e-05" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="RUNE" label="RUNE">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="0.018178729187903503" />
+          <attvalue for="2" value="0.0006127737294215445" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="TEY HOW" label="TEY HOW">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.132516103095348e-05" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="TARPALS" label="TARPALS">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.000276688079305834" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="DARTH MAUL" label="DARTH MAUL">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0005348587171937523" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="FODE/BEED" label="FODE/BEED">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0007989022672233994" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="VALORUM" label="VALORUM">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.000842702607650146" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="GENERAL CEEL" label="GENERAL CEEL">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0003176103426925356" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SENATOR ASK AAK" label="SENATOR ASK AAK">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0015520526473082664" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="ORN FREE TAA" label="ORN FREE TAA">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00046719841034104196" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="TAUN WE" label="TAUN WE">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0038315264316590466" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LAMA SU" label="LAMA SU">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0044453405544624515" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="JANGO FETT" label="JANGO FETT">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0009478954976106601" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="PLO KOON" label="PLO KOON">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="1.7264097334608783e-05" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="FANG ZAR" label="FANG ZAR">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.001115672894013455" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="MON MOTHMA" label="MON MOTHMA">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.008466946292652426" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="GIDDEAN DANU" label="GIDDEAN DANU">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0005614775980316124" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="CLONE COMMANDER GREE" label="CLONE COMMANDER GREE">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00018065842455369062" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="TION MEDON" label="TION MEDON">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0007353204696530966" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="CAMIE" label="CAMIE">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0028216925357544913" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="DODONNA" label="DODONNA">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0014094810209528256" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="GOLD LEADER" label="GOLD LEADER">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0014889384641065594" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="WEDGE" label="WEDGE">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="0.018433571185864764" />
+          <attvalue for="2" value="0.008682002284187303" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="RED LEADER" label="RED LEADER">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="8.494733265375468e-05" />
+          <attvalue for="2" value="0.007817134604937881" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="RED TEN" label="RED TEN">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0013992170582255703" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="DERLIN" label="DERLIN">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0034584257549738757" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="ZEV" label="ZEV">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0033981971612871966" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="DACK" label="DACK">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0040953891013808825" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="JANSON" label="JANSON">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="7.571728792807963e-05" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="BIB FORTUNA" label="BIB FORTUNA">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.004981057769795965" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="BOUSHH" label="BOUSHH">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.007348334063569424" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="ADMIRAL ACKBAR" label="ADMIRAL ACKBAR">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.01550638898936145" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="GENERAL HUX" label="GENERAL HUX">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="0.01834862385321101" />
+          <attvalue for="2" value="0.0003382878563448799" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="LIEUTENANT MITAKA" label="LIEUTENANT MITAKA">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00012305675394137452" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SNOKE" label="SNOKE">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00012600693525686472" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SNAP" label="SNAP">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.006263670694122774" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="ADMIRAL STATURA" label="ADMIRAL STATURA">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.009603425184859954" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="COLONEL DATOO" label="COLONEL DATOO">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="1.4750906577451003e-06" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="ELLO ASTY" label="ELLO ASTY">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00031359171027574686" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="JESS" label="JESS">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00023849168191609598" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="NIV LEK" label="NIV LEK">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00021141473123880707" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="YOLO ZIFF" label="YOLO ZIFF">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.00010639726036322118" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="DARTH VADER" target="R2-D2" id="0" weight="32">
+        <attvalues>
+          <attvalue for="4" value="0.03125" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="CHEWBACCA" id="1" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="WATTO" id="2" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="QUI-GON" id="3" weight="22">
+        <attvalues>
+          <attvalue for="4" value="0.045454545454545456" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="PADME" id="4" weight="41">
+        <attvalues>
+          <attvalue for="4" value="0.024390243902439025" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="SEBULBA" id="5" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="JAR JAR" id="6" weight="12">
+        <attvalues>
+          <attvalue for="4" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="JIRA" id="7" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="SHMI" id="8" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="C-3PO" id="9" weight="11">
+        <attvalues>
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="KITSTER" id="10" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="WALD" id="11" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="OBI-WAN" id="12" weight="47">
+        <attvalues>
+          <attvalue for="4" value="0.02127659574468085" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="JABBA" id="13" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="GREEDO" id="14" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="CAPTAIN PANAKA" id="15" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="RIC OLIE" id="16" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="MACE WINDU" id="17" weight="9">
+        <attvalues>
+          <attvalue for="4" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="KI-ADI-MUNDI" id="18" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="YODA" id="19" weight="9">
+        <attvalues>
+          <attvalue for="4" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="RABE" id="20" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="BOSS NASS" id="21" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="BRAVO TWO" id="22" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="BRAVO THREE" id="23" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="CAPTAIN TYPHO" id="24" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="SIO BIBBLE" id="25" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="SOLA" id="26" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="JOBAL" id="27" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="RUWEE" id="28" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="OWEN" id="29" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="BERU" id="30" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="CLIEGG" id="31" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="SUN RIT" id="32" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="POGGLE" id="33" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="NUTE GUNRAY" id="34" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="COUNT DOOKU" id="35" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="ODD BALL" id="36" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="EMPEROR" id="37" weight="21">
+        <attvalues>
+          <attvalue for="4" value="0.047619047619047616" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="GENERAL GRIEVOUS" id="38" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="BAIL ORGANA" id="39" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="CLONE COMMANDER CODY" id="40" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="LEIA" id="41" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="MOTTI" id="42" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="TARKIN" id="43" weight="7">
+        <attvalues>
+          <attvalue for="4" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="PIETT" id="44" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="OZZEL" id="45" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="NEEDA" id="46" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="BOBA FETT" id="47" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="LANDO" id="48" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="HAN" id="49" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="LUKE" id="50" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH VADER" target="JERJERROD" id="51" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="CHEWBACCA" id="52" weight="17">
+        <attvalues>
+          <attvalue for="4" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="BB-8" id="53" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="OBI-WAN" id="54" weight="28">
+        <attvalues>
+          <attvalue for="4" value="0.03571428571428571" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="PADME" id="55" weight="24">
+        <attvalues>
+          <attvalue for="4" value="0.041666666666666664" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="QUI-GON" id="56" weight="13">
+        <attvalues>
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="WATTO" id="57" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="C-3PO" id="58" weight="55">
+        <attvalues>
+          <attvalue for="4" value="0.01818181818181818" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="KITSTER" id="59" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="JABBA" id="60" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="EMPEROR" id="61" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="CAPTAIN TYPHO" id="62" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="BERU" id="63" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="OWEN" id="64" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="BAIL ORGANA" id="65" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="YODA" id="66" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="LUKE" id="67" weight="34">
+        <attvalues>
+          <attvalue for="4" value="0.029411764705882353" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="LEIA" id="68" weight="23">
+        <attvalues>
+          <attvalue for="4" value="0.043478260869565216" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="CAPTAIN ANTILLES" id="69" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="BIGGS" id="70" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="HAN" id="71" weight="18">
+        <attvalues>
+          <attvalue for="4" value="0.05555555555555555" />
+        </attvalues>
+      </edge>
+      <edge source="R2-D2" target="LANDO" id="72" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="BB-8" id="73" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="OBI-WAN" id="74" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="C-3PO" id="75" weight="39">
+        <attvalues>
+          <attvalue for="4" value="0.02564102564102564" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="LUKE" id="76" weight="32">
+        <attvalues>
+          <attvalue for="4" value="0.03125" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="HAN" id="77" weight="77">
+        <attvalues>
+          <attvalue for="4" value="0.012987012987012988" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="JABBA" id="78" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="LEIA" id="79" weight="48">
+        <attvalues>
+          <attvalue for="4" value="0.020833333333333332" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="RIEEKAN" id="80" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="LANDO" id="81" weight="20">
+        <attvalues>
+          <attvalue for="4" value="0.05" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="BOBA FETT" id="82" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="FINN" id="83" weight="20">
+        <attvalues>
+          <attvalue for="4" value="0.05" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="REY" id="84" weight="13">
+        <attvalues>
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="BALA-TIK" id="85" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="MAZ" id="86" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="POE" id="87" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="KYLO REN" id="88" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CHEWBACCA" target="CAPTAIN PHASMA" id="89" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="WATTO" target="QUI-GON" id="90" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="WATTO" target="PADME" id="91" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="WATTO" target="C-3PO" id="92" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="WATTO" target="KITSTER" id="93" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="NUTE GUNRAY" id="94" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="TC-14" id="95" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="OBI-WAN" id="96" weight="26">
+        <attvalues>
+          <attvalue for="4" value="0.038461538461538464" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="JAR JAR" id="97" weight="22">
+        <attvalues>
+          <attvalue for="4" value="0.045454545454545456" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="BOSS NASS" id="98" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="SIO BIBBLE" id="99" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="CAPTAIN PANAKA" id="100" weight="9">
+        <attvalues>
+          <attvalue for="4" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="PADME" id="101" weight="16">
+        <attvalues>
+          <attvalue for="4" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="RIC OLIE" id="102" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="SEBULBA" id="103" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="JIRA" id="104" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="SHMI" id="105" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="KITSTER" id="106" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="WALD" id="107" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="C-3PO" id="108" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="JABBA" id="109" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="GREEDO" id="110" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="EMPEROR" id="111" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="VALORUM" id="112" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="MACE WINDU" id="113" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="KI-ADI-MUNDI" id="114" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="YODA" id="115" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="RABE" id="116" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="QUI-GON" target="BAIL ORGANA" id="117" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="CAPTAIN PANAKA" id="118" weight="7">
+        <attvalues>
+          <attvalue for="4" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="SIO BIBBLE" id="119" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="JAR JAR" id="120" weight="10">
+        <attvalues>
+          <attvalue for="4" value="0.1" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="SEBULBA" id="121" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="JIRA" id="122" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="SHMI" id="123" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="C-3PO" id="124" weight="12">
+        <attvalues>
+          <attvalue for="4" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="KITSTER" id="125" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="JABBA" id="126" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="FODE/BEED" id="127" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="BOSS NASS" id="128" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="OBI-WAN" id="129" weight="9">
+        <attvalues>
+          <attvalue for="4" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="NUTE GUNRAY" id="130" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="EMPEROR" id="131" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="SOLA" id="132" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="JOBAL" id="133" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="RUWEE" id="134" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="OWEN" id="135" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="BERU" id="136" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="CLIEGG" id="137" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="MACE WINDU" id="138" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="COUNT DOOKU" id="139" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="SUN RIT" id="140" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="POGGLE" id="141" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="YODA" id="142" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="BAIL ORGANA" id="143" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="FANG ZAR" id="144" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="MON MOTHMA" id="145" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="GIDDEAN DANU" id="146" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PADME" target="CAPTAIN TYPHO" id="147" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="SEBULBA" target="JAR JAR" id="148" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="SEBULBA" target="SHMI" id="149" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SEBULBA" target="JABBA" id="150" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="OBI-WAN" id="151" weight="15">
+        <attvalues>
+          <attvalue for="4" value="0.06666666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="TARPALS" id="152" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="BOSS NASS" id="153" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="SIO BIBBLE" id="154" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="CAPTAIN PANAKA" id="155" weight="7">
+        <attvalues>
+          <attvalue for="4" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="RIC OLIE" id="156" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="SHMI" id="157" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="KITSTER" id="158" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="WALD" id="159" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="JABBA" id="160" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="FODE/BEED" id="161" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="EMPEROR" id="162" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="VALORUM" id="163" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="GENERAL CEEL" id="164" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="CAPTAIN TYPHO" id="165" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="BAIL ORGANA" id="166" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="YODA" id="167" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="MACE WINDU" id="168" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="SENATOR ASK AAK" id="169" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JAR JAR" target="ORN FREE TAA" id="170" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SHMI" target="OBI-WAN" id="171" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SHMI" target="JABBA" id="172" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SHMI" target="KITSTER" id="173" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="BB-8" id="174" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="KITSTER" id="175" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="OWEN" id="176" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="BERU" id="177" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="CLIEGG" id="178" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="OBI-WAN" id="179" weight="9">
+        <attvalues>
+          <attvalue for="4" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="EMPEROR" id="180" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="BAIL ORGANA" id="181" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="CAPTAIN TYPHO" id="182" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="YODA" id="183" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="CAPTAIN ANTILLES" id="184" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="LUKE" id="185" weight="29">
+        <attvalues>
+          <attvalue for="4" value="0.034482758620689655" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="LEIA" id="186" weight="49">
+        <attvalues>
+          <attvalue for="4" value="0.02040816326530612" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="HAN" id="187" weight="54">
+        <attvalues>
+          <attvalue for="4" value="0.018518518518518517" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="BIGGS" id="188" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="RED LEADER" id="189" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="DERLIN" id="190" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="RIEEKAN" id="191" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="LANDO" id="192" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="BOBA FETT" id="193" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="BIB FORTUNA" id="194" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="JABBA" id="195" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="BOUSHH" id="196" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="MON MOTHMA" id="197" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="ADMIRAL ACKBAR" id="198" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="POE" id="199" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="SNAP" id="200" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="FINN" id="201" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="C-3PO" target="ADMIRAL STATURA" id="202" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="KITSTER" target="WALD" id="203" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="WALD" target="GREEDO" id="204" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="TC-14" id="205" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="BOSS NASS" id="206" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="CAPTAIN PANAKA" id="207" weight="7">
+        <attvalues>
+          <attvalue for="4" value="0.14285714285714285" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="RIC OLIE" id="208" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="SIO BIBBLE" id="209" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="YODA" id="210" weight="20">
+        <attvalues>
+          <attvalue for="4" value="0.05" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="MACE WINDU" id="211" weight="9">
+        <attvalues>
+          <attvalue for="4" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="KI-ADI-MUNDI" id="212" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="CAPTAIN TYPHO" id="213" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="PK-4" id="214" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="TAUN WE" id="215" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="LAMA SU" id="216" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="BOBA FETT" id="217" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="JANGO FETT" id="218" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="BAIL ORGANA" id="219" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="EMPEROR" id="220" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="SENATOR ASK AAK" id="221" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="SUN RIT" id="222" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="POGGLE" id="223" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="NUTE GUNRAY" id="224" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="COUNT DOOKU" id="225" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="ODD BALL" id="226" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="GENERAL GRIEVOUS" id="227" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="CLONE COMMANDER CODY" id="228" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="TION MEDON" id="229" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="LUKE" id="230" weight="22">
+        <attvalues>
+          <attvalue for="4" value="0.045454545454545456" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="LEIA" id="231" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OBI-WAN" target="HAN" id="232" weight="10">
+        <attvalues>
+          <attvalue for="4" value="0.1" />
+        </attvalues>
+      </edge>
+      <edge source="JABBA" target="FODE/BEED" id="233" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JABBA" target="HAN" id="234" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JABBA" target="LUKE" id="235" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JABBA" target="BOUSHH" id="236" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JABBA" target="BIB FORTUNA" id="237" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="GREEDO" target="HAN" id="238" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="CAPTAIN PANAKA" target="EMPEROR" id="239" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CAPTAIN PANAKA" target="SIO BIBBLE" id="240" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="CAPTAIN PANAKA" target="RIC OLIE" id="241" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CAPTAIN PANAKA" target="BOSS NASS" id="242" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="RIC OLIE" target="BRAVO TWO" id="243" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="RIC OLIE" target="BRAVO THREE" id="244" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="KI-ADI-MUNDI" id="245" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="YODA" id="246" weight="16">
+        <attvalues>
+          <attvalue for="4" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="RABE" id="247" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="EMPEROR" id="248" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="BAIL ORGANA" id="249" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="SENATOR ASK AAK" id="250" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="COUNT DOOKU" id="251" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="MACE WINDU" target="CLONE COMMANDER CODY" id="252" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="KI-ADI-MUNDI" target="YODA" id="253" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="KI-ADI-MUNDI" target="RABE" id="254" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="KI-ADI-MUNDI" target="EMPEROR" id="255" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="KI-ADI-MUNDI" target="BAIL ORGANA" id="256" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="KI-ADI-MUNDI" target="PLO KOON" id="257" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="RABE" id="258" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="EMPEROR" id="259" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="BAIL ORGANA" id="260" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="SENATOR ASK AAK" id="261" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="COUNT DOOKU" id="262" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="CLONE COMMANDER GREE" id="263" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="CLONE COMMANDER CODY" id="264" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="YODA" target="LUKE" id="265" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="BRAVO TWO" target="BRAVO THREE" id="266" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="SIO BIBBLE" target="EMPEROR" id="267" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SIO BIBBLE" target="NUTE GUNRAY" id="268" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="SOLA" target="JOBAL" id="269" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="SOLA" target="RUWEE" id="270" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JOBAL" target="RUWEE" id="271" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="OWEN" target="BERU" id="272" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="OWEN" target="CLIEGG" id="273" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="OWEN" target="LUKE" id="274" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BERU" target="CLIEGG" id="275" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BERU" target="LUKE" id="276" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BERU" target="LEIA" id="277" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SUN RIT" target="POGGLE" id="278" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="SUN RIT" target="NUTE GUNRAY" id="279" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="SUN RIT" target="COUNT DOOKU" id="280" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="POGGLE" target="NUTE GUNRAY" id="281" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="POGGLE" target="COUNT DOOKU" id="282" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="TC-14" id="283" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="DOFINE" id="284" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="RUNE" id="285" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="TEY HOW" id="286" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="EMPEROR" id="287" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="DARTH MAUL" id="288" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="GENERAL CEEL" id="289" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="COUNT DOOKU" id="290" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="NUTE GUNRAY" target="GENERAL GRIEVOUS" id="291" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="COUNT DOOKU" target="JANGO FETT" id="292" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="COUNT DOOKU" target="EMPEROR" id="293" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="RUNE" id="294" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="DARTH MAUL" id="295" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="VALORUM" id="296" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="BAIL ORGANA" id="297" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="GENERAL CEEL" id="298" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="SENATOR ASK AAK" id="299" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="ORN FREE TAA" id="300" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="EMPEROR" target="LUKE" id="301" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BAIL ORGANA" target="VALORUM" id="302" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BAIL ORGANA" target="SENATOR ASK AAK" id="303" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BAIL ORGANA" target="FANG ZAR" id="304" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BAIL ORGANA" target="MON MOTHMA" id="305" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BAIL ORGANA" target="GIDDEAN DANU" id="306" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BAIL ORGANA" target="CAPTAIN ANTILLES" id="307" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="BB-8" id="308" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="LUKE" id="309" weight="26">
+        <attvalues>
+          <attvalue for="4" value="0.038461538461538464" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="MOTTI" id="310" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="TARKIN" id="311" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="HAN" id="312" weight="69">
+        <attvalues>
+          <attvalue for="4" value="0.014492753623188406" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="BIGGS" id="313" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="RED LEADER" id="314" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="RIEEKAN" id="315" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="DERLIN" id="316" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="LANDO" id="317" weight="12">
+        <attvalues>
+          <attvalue for="4" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="BOBA FETT" id="318" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="BOUSHH" id="319" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="MON MOTHMA" id="320" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="ADMIRAL ACKBAR" id="321" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="POE" id="322" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="FINN" id="323" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="SNAP" id="324" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="ADMIRAL STATURA" id="325" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LEIA" target="REY" id="326" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="MOTTI" target="TARKIN" id="327" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PIETT" target="OZZEL" id="328" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="PIETT" target="NEEDA" id="329" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PIETT" target="BOBA FETT" id="330" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BOBA FETT" target="TAUN WE" id="331" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BOBA FETT" target="JANGO FETT" id="332" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BOBA FETT" target="LANDO" id="333" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BOBA FETT" target="HAN" id="334" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LANDO" target="HAN" id="335" weight="12">
+        <attvalues>
+          <attvalue for="4" value="0.08333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LANDO" target="LUKE" id="336" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="LANDO" target="MON MOTHMA" id="337" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LANDO" target="ADMIRAL ACKBAR" id="338" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="LANDO" target="WEDGE" id="339" weight="6">
+        <attvalues>
+          <attvalue for="4" value="0.16666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="BB-8" id="340" weight="9">
+        <attvalues>
+          <attvalue for="4" value="0.1111111111111111" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="LUKE" id="341" weight="43">
+        <attvalues>
+          <attvalue for="4" value="0.023255813953488372" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="RIEEKAN" id="342" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="ZEV" id="343" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="BOUSHH" id="344" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="MON MOTHMA" id="345" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="ADMIRAL ACKBAR" id="346" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="REY" id="347" weight="17">
+        <attvalues>
+          <attvalue for="4" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="FINN" id="348" weight="23">
+        <attvalues>
+          <attvalue for="4" value="0.043478260869565216" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="BALA-TIK" id="349" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="MAZ" id="350" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="POE" id="351" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="SNAP" id="352" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="ADMIRAL STATURA" id="353" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="CAPTAIN PHASMA" id="354" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="HAN" target="KYLO REN" id="355" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="CAMIE" id="356" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="BIGGS" id="357" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="DODONNA" id="358" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="GOLD LEADER" id="359" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="WEDGE" id="360" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="RED LEADER" id="361" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="RED TEN" id="362" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="DACK" id="363" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="ZEV" id="364" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="BIB FORTUNA" id="365" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="MON MOTHMA" id="366" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="ADMIRAL ACKBAR" id="367" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="LUKE" target="REY" id="368" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BB-8" target="POE" id="369" weight="8">
+        <attvalues>
+          <attvalue for="4" value="0.125" />
+        </attvalues>
+      </edge>
+      <edge source="BB-8" target="LOR SAN TEKKA" id="370" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BB-8" target="REY" id="371" weight="17">
+        <attvalues>
+          <attvalue for="4" value="0.058823529411764705" />
+        </attvalues>
+      </edge>
+      <edge source="BB-8" target="UNKAR PLUTT" id="372" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BB-8" target="FINN" id="373" weight="15">
+        <attvalues>
+          <attvalue for="4" value="0.06666666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="BB-8" target="BALA-TIK" id="374" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="BB-8" target="MAZ" id="375" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BIGGS" target="CAMIE" id="376" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BIGGS" target="RED LEADER" id="377" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="BIGGS" target="WEDGE" id="378" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="BIGGS" target="GOLD LEADER" id="379" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="CAPTAIN PHASMA" id="380" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="POE" id="381" weight="11">
+        <attvalues>
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="REY" id="382" weight="29">
+        <attvalues>
+          <attvalue for="4" value="0.034482758620689655" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="BALA-TIK" id="383" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="MAZ" id="384" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="SNAP" id="385" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="ADMIRAL ACKBAR" id="386" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="ADMIRAL STATURA" id="387" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="FINN" target="KYLO REN" id="388" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="REY" target="UNKAR PLUTT" id="389" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="REY" target="BALA-TIK" id="390" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="REY" target="MAZ" id="391" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="REY" target="KYLO REN" id="392" weight="4">
+        <attvalues>
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="LOR SAN TEKKA" id="393" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="KYLO REN" id="394" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="CAPTAIN PHASMA" id="395" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="SNAP" id="396" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="ADMIRAL ACKBAR" id="397" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="ADMIRAL STATURA" id="398" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="ELLO ASTY" id="399" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="NIV LEK" id="400" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="JESS" id="401" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="POE" target="YOLO ZIFF" id="402" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="KYLO REN" target="LOR SAN TEKKA" id="403" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="KYLO REN" target="CAPTAIN PHASMA" id="404" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="KYLO REN" target="GENERAL HUX" id="405" weight="5">
+        <attvalues>
+          <attvalue for="4" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="KYLO REN" target="LIEUTENANT MITAKA" id="406" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="KYLO REN" target="SNOKE" id="407" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="CAPTAIN PHASMA" target="LOR SAN TEKKA" id="408" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="CAPTAIN PHASMA" target="GENERAL HUX" id="409" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="PK-4" target="TC-14" id="410" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="TC-14" target="DOFINE" id="411" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DOFINE" target="TEY HOW" id="412" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="RUNE" target="TEY HOW" id="413" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="RUNE" target="DARTH MAUL" id="414" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DARTH MAUL" target="GENERAL CEEL" id="415" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SENATOR ASK AAK" target="ORN FREE TAA" id="416" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="TAUN WE" target="LAMA SU" id="417" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="TAUN WE" target="JANGO FETT" id="418" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="FANG ZAR" target="MON MOTHMA" id="419" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="FANG ZAR" target="GIDDEAN DANU" id="420" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="MON MOTHMA" target="GIDDEAN DANU" id="421" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="MON MOTHMA" target="ADMIRAL ACKBAR" id="422" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DODONNA" target="GOLD LEADER" id="423" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="DODONNA" target="WEDGE" id="424" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="GOLD LEADER" target="WEDGE" id="425" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="GOLD LEADER" target="RED LEADER" id="426" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="WEDGE" target="RED LEADER" id="427" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="WEDGE" target="JANSON" id="428" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="WEDGE" target="ADMIRAL ACKBAR" id="429" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="RED LEADER" target="RED TEN" id="430" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ADMIRAL ACKBAR" target="SNAP" id="431" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ADMIRAL ACKBAR" target="ADMIRAL STATURA" id="432" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="GENERAL HUX" target="LIEUTENANT MITAKA" id="433" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="GENERAL HUX" target="SNOKE" id="434" weight="3">
+        <attvalues>
+          <attvalue for="4" value="0.3333333333333333" />
+        </attvalues>
+      </edge>
+      <edge source="GENERAL HUX" target="COLONEL DATOO" id="435" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SNAP" target="ADMIRAL STATURA" id="436" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="SNAP" target="JESS" id="437" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="ELLO ASTY" target="NIV LEK" id="438" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ELLO ASTY" target="JESS" id="439" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="ELLO ASTY" target="YOLO ZIFF" id="440" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="JESS" target="NIV LEK" id="441" weight="2">
+        <attvalues>
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </edge>
+      <edge source="JESS" target="YOLO ZIFF" id="442" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="NIV LEK" target="YOLO ZIFF" id="443" weight="1">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
